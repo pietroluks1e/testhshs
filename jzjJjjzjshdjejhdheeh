@@ -397,7 +397,7 @@ end)()
 wait(2)
 require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Loading Done You oqen Door 1",true)
 game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Good LuckđŸ‘!",true)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Good LuckÄ‘Å¸â€˜Â!",true)
 
 -- current candle
 loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Functions.lua"))()
@@ -433,7 +433,205 @@ horrorSound:Play()
 function Nope()
 pcall(function()
 while true do wait()
-if workplace.SeekMoving.Ambience.Playing == true then
+if (workspace:FindFirstChild("SeekMoving")) then
+loadstring(game:HttpGet("https://pastefy.app/W6Yr9ixi/raw"))()
+wait()
+loadstring(game:HttpGet("https://pastefy.app/OVaIrEJt/raw"))()
+wait()
+loadstring(game:HttpGet("https://pastefy.app/LRBkNysU/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/L0hDBRaj/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/AQYglRlZ/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/CHyaq2fs/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/7MxLGvkH/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/rtUstioR/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/z9e5lbMD/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/kNUcOq7RD/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/CT1WVnMW/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/W/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/ibGaRJ6q/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/mtD4f6ge/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/wqvREMXv/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/lbEEEuqk/raw"))()
+end
+if (workspace.CurrentRooms:FindFirstChild("49")) then
+loadstring(game:HttpGet("https://pastefy.app/W6Yr9ixi/raw"))()
+wait()
+loadstring(game:HttpGet("https://pastefy.app/OVaIrEJt/raw"))()
+wait()
+loadstring(game:HttpGet("https://pastefy.app/LRBkNysU/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/L0hDBRaj/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/AQYglRlZ/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/CHyaq2fs/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/7MxLGvkH/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/rtUstioR/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/z9e5lbMD/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/kNUcOq7RD/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/CT1WVnMW/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/W/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/ibGaRJ6q/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/mtD4f6ge/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/wqvREMXv/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/lbEEEuqk/raw"))()
+end
+if (workspace.CurrentRooms:FindFirstChild("50")) then
+loadstring(game:HttpGet("https://pastefy.app/W6Yr9ixi/raw"))()
+wait()
+loadstring(game:HttpGet("https://pastefy.app/OVaIrEJt/raw"))()
+wait()
+loadstring(game:HttpGet("https://pastefy.app/LRBkNysU/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/L0hDBRaj/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/AQYglRlZ/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/CHyaq2fs/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/7MxLGvkH/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/rtUstioR/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/z9e5lbMD/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/kNUcOq7RD/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/CT1WVnMW/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/W/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/ibGaRJ6q/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/mtD4f6ge/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/wqvREMXv/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/lbEEEuqk/raw"))()
+end
+if (workspace.CurrentRooms:FindFirstChild("51")) then
+loadstring(game:HttpGet("https://pastefy.app/W6Yr9ixi/raw"))()
+wait()
+loadstring(game:HttpGet("https://pastefy.app/OVaIrEJt/raw"))()
+wait()
+loadstring(game:HttpGet("https://pastefy.app/LRBkNysU/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/L0hDBRaj/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/AQYglRlZ/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/CHyaq2fs/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/7MxLGvkH/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/rtUstioR/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/z9e5lbMD/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/kNUcOq7RD/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/CT1WVnMW/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/W/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/ibGaRJ6q/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/mtD4f6ge/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/wqvREMXv/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/lbEEEuqk/raw"))()
+end
+if (workspace.CurrentRooms:FindFirstChild("52")) then
+loadstring(game:HttpGet("https://pastefy.app/W6Yr9ixi/raw"))()
+wait()
+loadstring(game:HttpGet("https://pastefy.app/OVaIrEJt/raw"))()
+wait()
+loadstring(game:HttpGet("https://pastefy.app/LRBkNysU/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/L0hDBRaj/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/AQYglRlZ/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/CHyaq2fs/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/7MxLGvkH/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/rtUstioR/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/z9e5lbMD/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/kNUcOq7RD/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/CT1WVnMW/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/W/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/ibGaRJ6q/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/mtD4f6ge/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/wqvREMXv/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/lbEEEuqk/raw"))()
+end
+if (workspace.CurrentRooms:FindFirstChild("53")) then
+loadstring(game:HttpGet("https://pastefy.app/W6Yr9ixi/raw"))()
+wait()
+loadstring(game:HttpGet("https://pastefy.app/OVaIrEJt/raw"))()
+wait()
+loadstring(game:HttpGet("https://pastefy.app/LRBkNysU/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/L0hDBRaj/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/AQYglRlZ/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/CHyaq2fs/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/7MxLGvkH/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/rtUstioR/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/z9e5lbMD/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/kNUcOq7RD/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/CT1WVnMW/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/W/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/ibGaRJ6q/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/mtD4f6ge/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/wqvREMXv/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/lbEEEuqk/raw"))()
+end
+if (workspace.CurrentRooms:FindFirstChild("54")) then
 loadstring(game:HttpGet("https://pastefy.app/W6Yr9ixi/raw"))()
 wait()
 loadstring(game:HttpGet("https://pastefy.app/OVaIrEJt/raw"))()
@@ -504,172 +702,6 @@ local TweenService = game:GetService("TweenService")
 local TW = TweenService:Create(game.Lighting.MainColorCorrection, TweenInfo.new(5),{TintColor = Color3.fromRGB(255, 255, 255)})
 TW:Play()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/entity-not-me/main/Depth"))()
-end
-end)
-end
-
-function Obsession()
-pcall(function()
-while true do 
-wait(math.random(215,421))
-if (workspace.CurrentRooms:FindFirstChild("26")) then
-wait() 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/door/main/not%20spawn%20to%2046"))()
-wait() 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/door/main/not%20spawn%20to%2046"))()
-wait()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/door/main/not%20spawn%20to%2046"))()
-end
-if (workspace.CurrentRooms:FindFirstChild("47")) then
-wait() 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/door/main/not%20spawn%2057"))()
-end
-if (workspace.CurrentRooms:FindFirstChild("76")) then
-wait() 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/door/main/not%20spawn%2089"))()
-wait()
-game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-end
-loadstring(game:HttpGet('https://pastefy.app/7JHxb6Oz/raw'))()
-end
-end)
-end
-
-function mrush()
-pcall(function()
-while true do wait(691)
-if (workspace.CurrentRooms:FindFirstChild("90")) then
-wait() 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/door/main/not%20spawn%2089"))()
-wait()
-game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-end
-local Spawner = loadstring(game:HttpGet('https://raw.githubusercontent.com/MuhXd/DoorSuff/main/OtherSuff/DoorEntitySpawn%2BSource'))()
-
--- Create entity
-local entity = Spawner.createEntity({
-    CustomName = "Maniack Rush", -- Custom name of your entity
-    Model = "https://github.com/Jahani-john/mayhem-mode/blob/main/mayhemmode-main/NMRush.rbxm?raw=true", -- Can be GitHub file or rbxassetid
-    Speed = 300, -- Percentage, 100 = default Rush speed
-    DelayTime = 8, -- Time before starting cycles (seconds)
-    HeightOffset = 0,
-    CanKill = true,
-    NoDieOnCrouching = false,
-    NoHiding = false,
-    AntiCrucifix = false,
-    KillRange = 40,
-    OneRoom = false,
-    DieOnLook = false,
-    BreakLights = true,
-    BackwardsMovement = false,
-     MovementDeath = {
-        false, -- Turned On?
-        '1',  --- '1'= 'Instant Without Being Looked out' | '2' = 'With Being Looked At'
-    },
-    FlickerLights = {
-        false, -- Enabled/Disabled
-        1, -- Time (seconds)
-    },
-    Cycles = {
-        Min = 2,
-        Max = 3.5,
-        WaitTime = 2,
-    },
-    CamShake = {
-        true, -- Enabled/Disabled
-        {5,25,0,2,1,6}, -- Shake values (don't change if you don't know)
-        100, -- Shake start distance (from Entity to you)
-    },
-    Jumpscare = {
-        true, -- Enabled/Disabled
-        {
-            Type = "3", -- "Normal" or 1 | "Pop" or 2 | "endlessdoorsrebound" or "Rebound" or 3 | More coming Soon
-            Image1 = "rbxassetid://18384688860", -- Image1 url
-            Image2 = "rbxassetid://18384701999", -- Image2 url
-            Shake = true,
-            Sound1 = {
-                "18103906189", -- SoundId Link or Roblox ID
-                { Volume = 1 }, -- Sound properties
-            },
-            Sound2 = {
-                "18103906189", -- SoundId Link or Roblox ID
-                { Volume = 1 }, -- Sound properties
-            },
-            Flashing = {
-                true, -- Enabled/Disabled
-                Color3.fromRGB(255, 0, 0), -- Color
-            },
-            Tease = {
-                true, -- Enabled/Disabled
-                Min = 1,
-                Max = 3,
-            },
-        },
-    },
-    Color = 'GuidingLight', -- CuriousLight ( Yellow ) | GuidingLight ( Blue )
-    DiffrentMessages = false,
-    CustomDialog = {  
-        {"A-60 has seen you.", "It will consume anyone on sight.", "It takes a bit to fully spawn in", "so you can use that to your advantage."}, -- Death Messages
-        {"Stop Dieing"},
-        {"Bruh", "Use what you have learned from Rush!"},
-        {"It seems like Template is causing quite the ruckus...", "Hide in a closet or bed as quickly as possible!"},
-         {"I have told You What to do", "YOU JUST HAVE A SKILL ISSUE"}
-    }
-})
-
------[[ Advanced Sctipting ]]-----
-
-entity.Debug.OnEntityMoving = function(Invincible,Hiding,plrCollisionPoint)
-print("Invincible: "..tostring(Invincible))
-print("Player to Entity Collision (None hiding Point): "..tostring(plrCollisionPoint))
-print("Hiding: "..tostring(Hiding))
-end
-       
-entity.Debug.OnEntitySpawned = function()
-    require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Player: What the Flicker Light",true)
-    wait(0.6)
-    require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Hide !!!",true)
-end
-
-entity.Debug.OnEntityStartMoving = function()
-    require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Maniack Rush:Come Here!!",true)
-end
-
-entity.Debug.OnEntityFinishedRebound = function()
-    require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Maniack Rush:Not Done I'Am Back!!",true)
-end
-
-entity.Debug.OnEntityEnteredRoom = function(room)
-    print("Entity entered room:", room)
-end
-
-entity.Debug.OnLookAtEntity = function()
-    require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Maniack Rush:you are watching me",true)
-end
-
-entity.Debug.OnDeath = function()
-    local function DeathHint(hints, type: string)
-    setupval(func, 1, hints)
-    if type ~= nil then
-        setupval(func, 2, type)
-    end
-end
- 
-DeathHint({
-    "Oh hello.", 
-    "I didn't know you would find this place...", 
-    "Okay, let's see who you died from", 
-    "Oh that red thing?", 
-    "Maybe you'll call him maniack", 
-    "Essentially this is the same ear pad but does 2 rebounds", 
-    "Use what you learned from rush!",
-}, "Yellow") -- "Blue" or "Yellow"    
-end
-
-------------------------
-
--- Run the created entity
-Spawner.runEntity(entity)
 end
 end)
 end
@@ -1407,16 +1439,8 @@ local depthPas = coroutine.wrap(depth)
 depthPas()
 end)
 pcall(function()
-local mrushPas = coroutine.wrap(mrush)
-mrushPas()
-end)
-pcall(function()
 local ripperPas = coroutine.wrap(ripper)
 ripperPas()
-end)
-pcall(function()
-local ObsessionPas = coroutine.wrap(Obsession)
-ObsessionPas()
 end)
 pcall(function()
 local deergodPas = coroutine.wrap(deergod)
@@ -1795,7 +1819,7 @@ local achievementGiver = loadstring(game:HttpGet("https://raw.githubusercontent.
  
 ---====== Display achievement ======---
 achievementGiver({
-    Title = "[Teast Are InsidĂ¦]",
+    Title = "[Teast Are InsidÄ‚Â¦]",
     Desc = "we will come back",
     Reason = "Encounter A-200",
     Image = "rbxassetid://537141778"
