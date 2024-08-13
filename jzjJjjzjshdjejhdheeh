@@ -1,0 +1,2041 @@
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Script%20Database2'))()Script="Script240"execute()
+
+function birate()
+pcall(function()
+wait()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/Spawn-entity/main/Bitera"))()
+end)
+end
+
+--DoorSound--
+coroutine.wrap(function()
+while true do
+game.ReplicatedStorage.Entities.Screech.Top.Eyes.Color = Color3.fromRGB(255, 0, 0)
+game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game.RemoteListener.Modules.Screech.Caught.SoundId = "rbxassetid://537141778"
+game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game.RemoteListener.Modules.Screech.Caught.PlaybackSpeed = 1.6
+game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game.RemoteListener.Modules.Screech.Attack.SoundId = "rbxassetid://6754147732"
+wait()
+game.Workspace.Ambience_Dark.SoundId = "rbxassetid://8132494511"
+game.Workspace.Ambience_Dark.PlaybackSpeed = 1
+end
+end)()
+
+local Lighting = game:GetService("Lighting")
+wait()
+Lighting.Ambient = Color3.new(0, 0, 0)
+Lighting.Brightness = 0.1
+Lighting.FogEnd = 100
+Lighting.FogColor = Color3.new(0, 0, 0)
+
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Doors Extreme Mode",true)
+wait(3)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Creator by Pr!me_A-60 and Zixsoed",true)
+wait(3)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("@a600399",true)
+game.TextChatService.TextChannels.RBXGeneral:DisplaySystemMessage("Pr!me A-60!: Not Oqen Door 1")
+wait(5)
+game.TextChatService.TextChannels.RBXGeneral:DisplaySystemMessage("Pr!me A-60!: Please wait for the word oqen door 1 below the screen")
+wait(5)
+game.TextChatService.TextChannels.RBXGeneral:DisplaySystemMessage("Pr!me A-60!: Wait!!!")
+wait(0.1)
+if (workspace.CurrentRooms:FindFirstChild("2")) then
+wait()
+game.Players.LocalPlayer:Kick("What Do You Oqen door 1")
+end
+if (workspace.CurrentRooms:FindFirstChild("1")) then
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait . ",true)
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait .. ",true)
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait ... ",true)
+end
+if (workspace.CurrentRooms:FindFirstChild("2")) then
+wait()
+game.Players.LocalPlayer:Kick("What Do You Oqen door 1")
+end
+if (workspace.CurrentRooms:FindFirstChild("1")) then
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait . ",true)
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait .. ",true)
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait ... ",true)
+end
+if (workspace.CurrentRooms:FindFirstChild("2")) then
+wait()
+game.Players.LocalPlayer:Kick("What Do You Oqen door 1")
+end
+if (workspace.CurrentRooms:FindFirstChild("1")) then
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait . ",true)
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait .. ",true)
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait ... ",true)
+end
+if (workspace.CurrentRooms:FindFirstChild("2")) then
+wait()
+game.Players.LocalPlayer:Kick("What Do You Oqen door 1")
+end
+if (workspace.CurrentRooms:FindFirstChild("1")) then
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait . ",true)
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait .. ",true)
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait ... ",true)
+end
+if (workspace.CurrentRooms:FindFirstChild("2")) then
+wait()
+game.Players.LocalPlayer:Kick("What Do You Oqen door 1")
+end
+if (workspace.CurrentRooms:FindFirstChild("1")) then
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait . ",true)
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait .. ",true)
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait ... ",true)
+end
+if (workspace.CurrentRooms:FindFirstChild("2")) then
+wait()
+game.Players.LocalPlayer:Kick("What Do You Oqen door 1")
+end
+if (workspace.CurrentRooms:FindFirstChild("1")) then
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait . ",true)
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait .. ",true)
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait ... ",true)
+end
+if (workspace.CurrentRooms:FindFirstChild("2")) then
+wait()
+game.Players.LocalPlayer:Kick("What Do You Oqen door 1")
+end
+if (workspace.CurrentRooms:FindFirstChild("1")) then
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait . ",true)
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait .. ",true)
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait ... ",true)
+end
+if (workspace.CurrentRooms:FindFirstChild("2")) then
+wait()
+game.Players.LocalPlayer:Kick("What Do You Oqen door 1")
+end
+if (workspace.CurrentRooms:FindFirstChild("1")) then
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait . ",true)
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait .. ",true)
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait ... ",true)
+end
+if (workspace.CurrentRooms:FindFirstChild("2")) then
+wait()
+game.Players.LocalPlayer:Kick("What Do You Oqen door 1")
+end
+if (workspace.CurrentRooms:FindFirstChild("1")) then
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait . ",true)
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait .. ",true)
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait ... ",true)
+end
+if (workspace.CurrentRooms:FindFirstChild("1")) then
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait . ",true)
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait .. ",true)
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait ... ",true)
+end
+if (workspace.CurrentRooms:FindFirstChild("2")) then
+wait()
+game.Players.LocalPlayer:Kick("What Do You Oqen door 1")
+end
+if (workspace.CurrentRooms:FindFirstChild("1")) then
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait . ",true)
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait .. ",true)
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait ... ",true)
+end
+if (workspace.CurrentRooms:FindFirstChild("2")) then
+wait()
+game.Players.LocalPlayer:Kick("What Do You Oqen door 1")
+end
+if (workspace.CurrentRooms:FindFirstChild("1")) then
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait . ",true)
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait .. ",true)
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait ... ",true)
+end
+if (workspace.CurrentRooms:FindFirstChild("2")) then
+wait()
+game.Players.LocalPlayer:Kick("What Do You Oqen door 1")
+end
+if (workspace.CurrentRooms:FindFirstChild("1")) then
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait . ",true)
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait .. ",true)
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait ... ",true)
+end
+if (workspace.CurrentRooms:FindFirstChild("2")) then
+wait()
+game.Players.LocalPlayer:Kick("What Do You Oqen door 1")
+end
+if (workspace.CurrentRooms:FindFirstChild("1")) then
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait . ",true)
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait .. ",true)
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait ... ",true)
+end
+if (workspace.CurrentRooms:FindFirstChild("2")) then
+wait()
+game.Players.LocalPlayer:Kick("What Do You Oqen door 1")
+end
+if (workspace.CurrentRooms:FindFirstChild("1")) then
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait . ",true)
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait .. ",true)
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait ... ",true)
+end
+if (workspace.CurrentRooms:FindFirstChild("2")) then
+wait()
+game.Players.LocalPlayer:Kick("What Do You Oqen door 1")
+end
+if (workspace.CurrentRooms:FindFirstChild("1")) then
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait . ",true)
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait .. ",true)
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait ... ",true)
+end
+if (workspace.CurrentRooms:FindFirstChild("2")) then
+wait()
+game.Players.LocalPlayer:Kick("What Do You Oqen door 1")
+end
+if (workspace.CurrentRooms:FindFirstChild("1")) then
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait . ",true)
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait .. ",true)
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait ... ",true)
+end
+if (workspace.CurrentRooms:FindFirstChild("1")) then
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait . ",true)
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait .. ",true)
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait ... ",true)
+end
+if (workspace.CurrentRooms:FindFirstChild("1")) then
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait . ",true)
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait .. ",true)
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait ... ",true)
+end
+if (workspace.CurrentRooms:FindFirstChild("1")) then
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait . ",true)
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait .. ",true)
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait ... ",true)
+end
+if (workspace.CurrentRooms:FindFirstChild("1")) then
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait . ",true)
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait .. ",true)
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait ... ",true)
+end
+if (workspace.CurrentRooms:FindFirstChild("1")) then
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait . ",true)
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait .. ",true)
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait ... ",true)
+end
+if (workspace.CurrentRooms:FindFirstChild("1")) then
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait . ",true)
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait .. ",true)
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait ... ",true)
+end
+if (workspace.CurrentRooms:FindFirstChild("1")) then
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait . ",true)
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait .. ",true)
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait ... ",true)
+end
+if (workspace.CurrentRooms:FindFirstChild("1")) then
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait . ",true)
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait .. ",true)
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait ... ",true)
+end
+if (workspace.CurrentRooms:FindFirstChild("1")) then
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait . ",true)
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait .. ",true)
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait ... ",true)
+end
+if (workspace.CurrentRooms:FindFirstChild("2")) then
+wait()
+game.Players.LocalPlayer:Kick("What Do You Oqen door 1")
+end
+if (workspace.CurrentRooms:FindFirstChild("1")) then
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait . ",true)
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait .. ",true)
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait ... ",true)
+end
+if (workspace.CurrentRooms:FindFirstChild("2")) then
+wait()
+game.Players.LocalPlayer:Kick("What Do You Oqen door 1")
+end
+if (workspace.CurrentRooms:FindFirstChild("1")) then
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait . ",true)
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait .. ",true)
+wait(0.8)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait ... ",true)
+end
+wait(0.8)
+pcall(function()
+spawn(function()
+	while wait() do
+	local currentroomnumber = game:GetService("ReplicatedStorage").GameData.LatestRoom.Value
+		if workspace["CurrentRooms"][currentroomnumber]:FindFirstChild("Door") ~= nil then
+		 if workspace["CurrentRooms"][currentroomnumber]:FindFirstChild("Door"):FindFirstChild("Door") ~= nil then
+			workspace["CurrentRooms"][currentroomnumber]:FindFirstChild("Door"):FindFirstChild("Door").Material = Enum.Material.DiamondPlate
+			workspace["CurrentRooms"][currentroomnumber]:FindFirstChild("Door"):FindFirstChild("Door").Color = Color3.new(0.341176, 0.341176, 0.341176)
+		    end
+		end
+	end
+end)
+spawn(function()
+	while wait() do
+	local currentroomnumber = game:GetService("ReplicatedStorage").GameData.LatestRoom.Value
+		if workspace["CurrentRooms"][currentroomnumber]:FindFirstChild("Door") ~= nil then
+		 if workspace["CurrentRooms"][currentroomnumber]:FindFirstChild("Door"):FindFirstChild("Door") ~= nil then
+		 if workspace["CurrentRooms"][currentroomnumber]:FindFirstChild("Door"):FindFirstChild("Door"):FindFirstChild("Sign") ~= nil then
+		 workspace["CurrentRooms"][currentroomnumber]:FindFirstChild("Door").Sign:Destroy()
+		 workspace["CurrentRooms"][currentroomnumber]:FindFirstChild("Door"):FindFirstChild("Door"):FindFirstChild("Sign"):Destroy()
+                end
+		    end
+		end
+	end
+end)
+end)
+workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value].Door.Door.Open.SoundId = "rbxassetid://3908308607"
+        workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value].Door.Door.Unlock.SoundId = "rbxassetid://3908308607"
+        workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value].Door.Door.SlamOpen.SoundId = "rbxassetid://3908308607"
+        workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value].Door.Door.SlamOpen.TimePosition = 2
+-- doors
+coroutine.wrap(function()
+    while true do
+        wait(0.0005)
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        wait(0.0005)
+        workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value].Door.Door.Open.SoundId = "rbxassetid://3908308607"
+        workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value].Door.Door.Unlock.SoundId = "rbxassetid://3908308607"
+        workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value].Door.Door.SlamOpen.SoundId = "rbxassetid://3908308607"
+        workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value].Door.Door.SlamOpen.TimePosition = 2
+    end
+end)()
+
+-- doors 2
+coroutine.wrap(function()
+    while true do
+        wait(0.0005)
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        wait(0.0005)
+workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value].Parts.DoorNormal.Door.Open.SoundId = "rbxassetid://3908308607"
+workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value].Parts.DoorNormal.Door.Open.SoundId = "rbxassetid://3908308607"
+workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value].Parts.DoorNormal.Door.Open.SoundId = "rbxassetid://3908308607"
+workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value].Parts.DoorNormal.Door.Open.SoundId = "rbxassetid://3908308607"
+workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value].Parts.DoorNormal.Door.Unlock.SoundId = "rbxassetid://3908308607"
+workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value].Parts.DoorNormal.Door.Unlock.SoundId = "rbxassetid://3908308607"
+workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value].Parts.DoorNormal.Door.Unlock.SoundId = "rbxassetid://3908308607"
+workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value].Parts.DoorNormal.Door.Unlock.SoundId = "rbxassetid://3908308607"
+    end
+end)()
+wait(2)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Loading Done You oqen Door 1",true)
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Good LuckđŸ‘!",true)
+
+-- current candle
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Functions.lua"))()
+LoadCustomInstance("rbxassetid://15717047029").Parent = game:GetService("Players").LocalPlayer.Backpack
+
+-- echo sound
+game.SoundService.AmbientReverb = "ConcertHall"
+--
+
+--ambient fog and horror sound
+local Workspace = game:GetService("Workspace")
+local Lighting = game:GetService("Lighting")
+local SoundService = game:GetService("SoundService")
+--
+
+-- new the lights bulb sounds
+game.ReplicatedStorage.Sounds.BulbCharge.SoundId = "rbxassetid://9125973034"
+game.ReplicatedStorage.Sounds.BulbZap.SoundId = "rbxassetid://4288784832"
+game.ReplicatedStorage.Sounds.BulbZap.Volume = 2
+game.ReplicatedStorage.Sounds.BulbBreak.SoundId = "rbxassetid://260496290"
+--
+
+--Set up horror sound
+local horrorSound = Instance.new("Sound", Workspace)
+horrorSound.SoundId = "rbxassetid://1843756354" -- replace with your own sound id
+horrorSound.Volume = 1.6
+horrorSound.Looped = true
+
+--Play the sound
+horrorSound:Play()
+--
+
+function Nope()
+pcall(function()
+while true do wait()
+if workplace.SeekMoving.Ambience.Playing == true then
+loadstring(game:HttpGet("https://pastefy.app/W6Yr9ixi/raw"))()
+wait()
+loadstring(game:HttpGet("https://pastefy.app/OVaIrEJt/raw"))()
+wait()
+loadstring(game:HttpGet("https://pastefy.app/LRBkNysU/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/L0hDBRaj/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/AQYglRlZ/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/CHyaq2fs/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/7MxLGvkH/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/rtUstioR/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/z9e5lbMD/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/kNUcOq7RD/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/CT1WVnMW/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/W/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/ibGaRJ6q/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/mtD4f6ge/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/wqvREMXv/raw"))()
+wait() 
+loadstring(game:HttpGet("https://pastefy.app/lbEEEuqk/raw"))()
+end
+end
+end)
+end
+
+function matcher()
+pcall(function()
+while true do wait(160)
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/hehhe/main/matcher"))()
+end
+end)
+end
+
+function depth()
+pcall(function()
+while true do wait(412)
+if (workspace.CurrentRooms:FindFirstChild("90")) then
+wait() 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/door/main/not%20spawn%2089"))()
+wait()
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+end
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+local cue2 = Instance.new("Sound")
+	cue2.Parent = game.Workspace
+	cue2.Name = "Spawn"
+	cue2.SoundId = "rbxassetid://8627516764"
+	cue2.Volume = 1
+	cue2.PlaybackSpeed = 1
+	cue2:Play()
+game.Lighting.MainColorCorrection.TintColor = Color3.fromRGB(0, 100, 255)
+game.Lighting.MainColorCorrection.Contrast = 5
+local tween = game:GetService("TweenService")
+tween:Create(game.Lighting.MainColorCorrection, TweenInfo.new(2.5), {Contrast = 0}):Play()
+local TweenService = game:GetService("TweenService")
+local TW = TweenService:Create(game.Lighting.MainColorCorrection, TweenInfo.new(5),{TintColor = Color3.fromRGB(255, 255, 255)})
+TW:Play()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/entity-not-me/main/Depth"))()
+end
+end)
+end
+
+function Obsession()
+pcall(function()
+while true do 
+wait(math.random(215,421))
+if (workspace.CurrentRooms:FindFirstChild("26")) then
+wait() 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/door/main/not%20spawn%20to%2046"))()
+wait() 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/door/main/not%20spawn%20to%2046"))()
+wait()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/door/main/not%20spawn%20to%2046"))()
+end
+if (workspace.CurrentRooms:FindFirstChild("47")) then
+wait() 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/door/main/not%20spawn%2057"))()
+end
+if (workspace.CurrentRooms:FindFirstChild("76")) then
+wait() 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/door/main/not%20spawn%2089"))()
+wait()
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+end
+loadstring(game:HttpGet('https://pastefy.app/7JHxb6Oz/raw'))()
+end
+end)
+end
+
+function mrush()
+pcall(function()
+while true do wait(691)
+if (workspace.CurrentRooms:FindFirstChild("90")) then
+wait() 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/door/main/not%20spawn%2089"))()
+wait()
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+end
+local Spawner = loadstring(game:HttpGet('https://raw.githubusercontent.com/MuhXd/DoorSuff/main/OtherSuff/DoorEntitySpawn%2BSource'))()
+
+-- Create entity
+local entity = Spawner.createEntity({
+    CustomName = "Maniack Rush", -- Custom name of your entity
+    Model = "https://github.com/Jahani-john/mayhem-mode/blob/main/mayhemmode-main/NMRush.rbxm?raw=true", -- Can be GitHub file or rbxassetid
+    Speed = 300, -- Percentage, 100 = default Rush speed
+    DelayTime = 8, -- Time before starting cycles (seconds)
+    HeightOffset = 0,
+    CanKill = true,
+    NoDieOnCrouching = false,
+    NoHiding = false,
+    AntiCrucifix = false,
+    KillRange = 40,
+    OneRoom = false,
+    DieOnLook = false,
+    BreakLights = true,
+    BackwardsMovement = false,
+     MovementDeath = {
+        false, -- Turned On?
+        '1',  --- '1'= 'Instant Without Being Looked out' | '2' = 'With Being Looked At'
+    },
+    FlickerLights = {
+        false, -- Enabled/Disabled
+        1, -- Time (seconds)
+    },
+    Cycles = {
+        Min = 2,
+        Max = 3.5,
+        WaitTime = 2,
+    },
+    CamShake = {
+        true, -- Enabled/Disabled
+        {5,25,0,2,1,6}, -- Shake values (don't change if you don't know)
+        100, -- Shake start distance (from Entity to you)
+    },
+    Jumpscare = {
+        true, -- Enabled/Disabled
+        {
+            Type = "3", -- "Normal" or 1 | "Pop" or 2 | "endlessdoorsrebound" or "Rebound" or 3 | More coming Soon
+            Image1 = "rbxassetid://18384688860", -- Image1 url
+            Image2 = "rbxassetid://18384701999", -- Image2 url
+            Shake = true,
+            Sound1 = {
+                "18103906189", -- SoundId Link or Roblox ID
+                { Volume = 1 }, -- Sound properties
+            },
+            Sound2 = {
+                "18103906189", -- SoundId Link or Roblox ID
+                { Volume = 1 }, -- Sound properties
+            },
+            Flashing = {
+                true, -- Enabled/Disabled
+                Color3.fromRGB(255, 0, 0), -- Color
+            },
+            Tease = {
+                true, -- Enabled/Disabled
+                Min = 1,
+                Max = 3,
+            },
+        },
+    },
+    Color = 'GuidingLight', -- CuriousLight ( Yellow ) | GuidingLight ( Blue )
+    DiffrentMessages = false,
+    CustomDialog = {  
+        {"A-60 has seen you.", "It will consume anyone on sight.", "It takes a bit to fully spawn in", "so you can use that to your advantage."}, -- Death Messages
+        {"Stop Dieing"},
+        {"Bruh", "Use what you have learned from Rush!"},
+        {"It seems like Template is causing quite the ruckus...", "Hide in a closet or bed as quickly as possible!"},
+         {"I have told You What to do", "YOU JUST HAVE A SKILL ISSUE"}
+    }
+})
+
+-----[[ Advanced Sctipting ]]-----
+
+entity.Debug.OnEntityMoving = function(Invincible,Hiding,plrCollisionPoint)
+print("Invincible: "..tostring(Invincible))
+print("Player to Entity Collision (None hiding Point): "..tostring(plrCollisionPoint))
+print("Hiding: "..tostring(Hiding))
+end
+       
+entity.Debug.OnEntitySpawned = function()
+    require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Player: What the Flicker Light",true)
+    wait(0.6)
+    require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Hide !!!",true)
+end
+
+entity.Debug.OnEntityStartMoving = function()
+    require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Maniack Rush:Come Here!!",true)
+end
+
+entity.Debug.OnEntityFinishedRebound = function()
+    require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Maniack Rush:Not Done I'Am Back!!",true)
+end
+
+entity.Debug.OnEntityEnteredRoom = function(room)
+    print("Entity entered room:", room)
+end
+
+entity.Debug.OnLookAtEntity = function()
+    require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Maniack Rush:you are watching me",true)
+end
+
+entity.Debug.OnDeath = function()
+    local function DeathHint(hints, type: string)
+    setupval(func, 1, hints)
+    if type ~= nil then
+        setupval(func, 2, type)
+    end
+end
+ 
+DeathHint({
+    "Oh hello.", 
+    "I didn't know you would find this place...", 
+    "Okay, let's see who you died from", 
+    "Oh that red thing?", 
+    "Maybe you'll call him maniack", 
+    "Essentially this is the same ear pad but does 2 rebounds", 
+    "Use what you learned from rush!",
+}, "Yellow") -- "Blue" or "Yellow"    
+end
+
+------------------------
+
+-- Run the created entity
+Spawner.runEntity(entity)
+end
+end)
+end
+
+function ripper()
+pcall(function()
+while true do wait(335)
+if (workspace.CurrentRooms:FindFirstChild("76")) then
+wait() 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/door/main/not%20spawn%2089"))()
+wait()
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+end
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/Spawn-entity/main/Ripper"))()
+end
+end)
+end
+
+function deergod()
+pcall(function()
+while true do wait(198)
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+loadstring(game:HttpGet('https://pastefy.app/OKEYpboe/raw'))()
+end
+end)
+end
+
+function trauma()
+pcall(function()
+while true do wait(769)
+if (workspace.CurrentRooms:FindFirstChild("26")) then
+wait() 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/door/main/not%20spawn%20to%2046"))()
+wait()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/door/main/not%20spawn%20to%2046"))()
+end
+if (workspace.CurrentRooms:FindFirstChild("47")) then
+wait() 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/door/main/not%20spawn%2057"))()
+end
+if (workspace.CurrentRooms:FindFirstChild("76")) then
+wait() 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/door/main/not%20spawn%2089"))()
+wait()
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+end
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+local Spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/a120doors/main/jghgifgy"))()
+
+---====== Create entity ======---
+
+
+local entity = Spawner.createEntity({
+    CustomName = "Trauma",
+    Model = "https://github.com/munciseek/DOORS-entity-models/blob/main/Nightmare/Trauma.rbxm?raw=true", -- Your entity's model url here ("rbxassetid://1234567890" or GitHub raw url)
+    Speed = 100,
+    MoveDelay = 0,
+    HeightOffset = 4,
+    CanKill = true,
+    KillRange = 30,
+    SpawnInFront = false,
+    ShatterLights = false,
+    FlickerLights = {
+        Enabled = false,
+        Duration = 3
+    },
+    Cycles = {
+        Min = 1,
+        Max = 1,
+        Delay = 0
+    },
+    CamShake = {
+        Enabled = true,
+        Values = {1.5, 20, 0.1, 1},
+        Range = 100
+    },
+    ResistCrucifix = true,
+    BreakCrucifix = true,
+    DeathMessage = {"you die to A-10", "yee."},
+    IsCuriousLight = true
+})
+
+---====== Debug ======---
+
+entity.Debug.OnEntitySpawned = function()
+end
+entity.Debug.OnEntityDespawned = function()
+    local achievementGiver = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Custom%20Achievements/Source.lua"))()
+ 
+---====== Display achievement ======---
+achievementGiver({
+    Title = "Ser Verty Has Deted",
+    Desc = "Ave Sira Cant Detdesa",
+    Reason = "Encounter Trauma",
+    Image = "rbxassetid://0"
+})
+end
+entity.Debug.OnEntityStartMoving = function()
+    print("Entity started moving")
+end
+
+entity.Debug.OnEntityFinishedRebound = function()
+    print("Entity finished rebound")
+end
+
+entity.Debug.OnEntityEnteredRoom = function(room)
+    print("Entity entered room:", room)
+end
+
+entity.Debug.OnLookAtEntity = function()
+    print("Player looking at entity")
+end
+
+entity.Debug.OnDeath = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/huyhoangphuc/ytu/main/A-200Jumpscare'))()
+end
+
+--[[
+    NOTE: By overwriting 'OnUseCrucifix', the default crucifixion will be ignored and this function will be called instead
+
+    entity.Debug.OnUseCrucifix = function()
+        print("Custom crucifixion script here")
+    end
+]]--
+
+---====== Run entity ======---
+
+Spawner.runEntity(entity)
+end
+end)
+end
+
+function G95()
+pcall(function()
+while true do wait(836)
+if (workspace.CurrentRooms:FindFirstChild("26")) then
+wait() 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/door/main/not%20spawn%20to%2046"))()
+wait()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/door/main/not%20spawn%20to%2046"))()
+end
+if (workspace.CurrentRooms:FindFirstChild("47")) then
+wait() 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/door/main/not%20spawn%2057"))()
+end
+if (workspace.CurrentRooms:FindFirstChild("76")) then
+wait() 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/door/main/not%20spawn%2089"))()
+wait()
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+end
+local Spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/a120doors/main/jghgifgy"))()
+
+---====== Create entity ======---
+
+
+local entity = Spawner.createEntity({
+    CustomName = "G-95",
+    Model = "https://github.com/munciseek/DOORS-entity-models/blob/main/Nightmare/G-95.rbxm?raw=true", -- Your entity's model url here ("rbxassetid://1234567890" or GitHub raw url)
+    Speed = 100,
+    MoveDelay = 0,
+    HeightOffset = 4,
+    CanKill = true,
+    KillRange = 30,
+    SpawnInFront = true,
+    ShatterLights = false,
+    FlickerLights = {
+        Enabled = false,
+        Duration = 3
+    },
+    Cycles = {
+        Min = 4,
+        Max = 5.5,
+        Delay = 0
+    },
+    CamShake = {
+        Enabled = true,
+        Values = {1.5, 20, 0.1, 1},
+        Range = 100
+    },
+    ResistCrucifix = true,
+    BreakCrucifix = true,
+    DeathMessage = {"you die to A-10", "yee."},
+    IsCuriousLight = true
+})
+
+---====== Debug ======---
+
+entity.Debug.OnEntitySpawned = function()
+end
+entity.Debug.OnEntityDespawned = function()
+    local achievementGiver = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Custom%20Achievements/Source.lua"))()
+ 
+---====== Display achievement ======---
+achievementGiver({
+    Title = "The Will A Sea",
+    Desc = "Are You Will Do",
+    Reason = "Encounter G-95",
+    Image = "rbxassetid://537141778"
+})
+end
+entity.Debug.OnEntityStartMoving = function()
+    print("Entity started moving")
+end
+
+entity.Debug.OnEntityFinishedRebound = function()
+    print("Entity finished rebound")
+end
+
+entity.Debug.OnEntityEnteredRoom = function(room)
+    print("Entity entered room:", room)
+end
+
+entity.Debug.OnLookAtEntity = function()
+    print("Player looking at entity")
+end
+
+entity.Debug.OnDeath = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/huyhoangphuc/ytu/main/A-200Jumpscare'))()
+end
+
+--[[
+    NOTE: By overwriting 'OnUseCrucifix', the default crucifixion will be ignored and this function will be called instead
+
+    entity.Debug.OnUseCrucifix = function()
+        print("Custom crucifixion script here")
+    end
+]]--
+
+---====== Run entity ======---
+
+Spawner.runEntity(entity)
+end
+end)
+end
+
+function blink()
+pcall(function()
+while true do wait(610)
+if (workspace.CurrentRooms:FindFirstChild("26")) then
+wait() 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/door/main/not%20spawn%20to%2046"))()
+wait()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/door/main/not%20spawn%20to%2046"))()
+wait() 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/door/main/not%20spawn%20to%2046"))()
+wait()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/door/main/not%20spawn%20to%2046"))()
+end
+if (workspace.CurrentRooms:FindFirstChild("47")) then
+wait() 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/door/main/not%20spawn%2057"))()
+end
+if (workspace.CurrentRooms:FindFirstChild("74")) then
+wait() 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/door/main/not%20spawn%2089"))()
+end
+if (workspace.CurrentRooms:FindFirstChild("89")) then
+wait() 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/door/main/not%20spawn%2089"))()
+end
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/Spawn-entity/main/Blink"))()
+end
+end)
+end
+
+function rebound()
+pcall(function()
+while true do wait(326)
+if (workspace.CurrentRooms:FindFirstChild("92")) then
+wait()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/door/main/not%20spawn%2057"))()
+end
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/hehhe/main/rebound"))()
+end
+end)
+end
+
+function A200()
+pcall(function()
+while true do wait(612)
+if (workspace.CurrentRooms:FindFirstChild("26")) then
+wait() 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/door/main/not%20spawn%20to%2046"))()
+wait()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/door/main/not%20spawn%20to%2046"))()
+wait() 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/door/main/not%20spawn%20to%2046"))()
+wait()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/door/main/not%20spawn%20to%2046"))()
+end
+if (workspace.CurrentRooms:FindFirstChild("47")) then
+wait() 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/door/main/not%20spawn%2057"))()
+end
+if (workspace.CurrentRooms:FindFirstChild("74")) then
+wait() 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/door/main/not%20spawn%2089"))()
+end
+if (workspace.CurrentRooms:FindFirstChild("100")) then
+wait()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/door/main/not%20spawn%2057"))()
+end
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Script%20Database2'))()Script="Script234"execute()
+end
+end)
+end
+
+function smiler()
+pcall(function()
+while true do wait(4216)
+if (workspace.CurrentRooms:FindFirstChild("89")) then
+wait() 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/door/main/not%20spawn%2089"))()
+end
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+wait()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/door/main/not%20spawn%2089"))()
+wait()
+if (workspace.CurrentRooms:FindFirstChild("89")) then
+wait() 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/door/main/not%20spawn%2089"))()
+end
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/Spawn-entity/main/Smiler"))()
+end
+end)
+end
+
+function dread()
+pcall(function()
+while true do wait(1420)
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+local Spawner = loadstring(game:HttpGet('https://raw.githubusercontent.com/MuhXd/DoorSuff/main/OtherSuff/DoorEntitySpawn%2BSource'))()
+
+-- Create entity
+
+local entity = Spawner.createEntity({
+    CustomName = "Dread", -- Custom name of your entity
+    Model = "rbxassetid://12654337720", -- Can be GitHub file or rbxassetid
+    Speed = 0, -- Percentage, 100 = default Rush speed
+    DelayTime = 5, -- Time before starting cycles (seconds)
+    HeightOffset = 1,
+    CanKill = false,
+    NoDieOnCrouching = false,
+    NoHiding = false,
+    AntiCrucifix = false,
+    KillRange = 30,
+    OneRoom = true,
+    DieOnLook = false,
+    BreakLights = false,
+    BackwardsMovement = false,
+     MovementDeath = {
+        false, -- Turned On?
+        '1',  --- '1'= 'Instant Without Being Looked out' | '2' = 'With Being Looked At'
+    },
+    FlickerLights = {
+        true, -- Enabled/Disabled
+        1, -- Time (seconds)
+    },
+EntitySounds = { -- Can Get rid Of
+PlaySound = {
+              "https://github.com/MuhXd/Models/blob/main/video0-1-3.mp3?raw=true", -- SoundId Link or Roblox ID
+            { Volume = 0 }, -- Sound properties
+       },
+        
+                   
+          Footsteps = {
+             "https://github.com/MuhXd/Models/blob/main/video0-1-3.mp3?raw=true", -- SoundId Link or Roblox ID
+              { Volume = 0 }, -- Sound properties
+          },
+    }, -- Up to Here
+
+    Cycles = {
+        Min = 1,
+        Max = 1,
+        WaitTime = 2,
+    },
+    CamShake = {
+        false, -- Enabled/Disabled
+        {3.5, 20, 0.1, 1}, -- Shake values (don't change if you don't know)
+        100, -- Shake start distance (from Entity to you)
+    },
+    Jumpscare = {
+        false, -- Enabled/Disabled
+        {
+            Type = "2", -- "Normal" or 1 | "Pop" or 2 | "endlessdoorsrebound" to "Rebound" or 1 | More coming Soon
+            Image1 = "https://raw.githubusercontent.com/huyhoangphuc/Entity-jumpscare/main/Webp%20(8).webp?raw=true", -- Image1 url
+            Image2 = "https://raw.githubusercontent.com/huyhoangphuc/Entity-jumpscare/main/Webp%20(8).webp?raw=true", -- Image2 url
+            Shake = true,
+            Sound1 = {
+                "rbxassetid://5263560896", -- SoundId Link or Roblox ID
+                { Volume = 5 }, -- Sound properties
+            },
+            Sound2 = {
+                "rbxassetid://5263560896", -- SoundId Link or Roblox ID
+                { Volume = 5 }, -- Sound properties
+            },
+            Flashing = {
+                true, -- Enabled/Disabled
+                Color3.fromRGB(255, 255, 255), -- Color
+            },
+            Tease = {
+                true, -- Enabled/Disabled
+                Min = 1,
+                Max = 3,
+            },
+        },
+    },
+    Color = 'CuriousLight', -- CuriousLight ( Yellow ) | GuidingLight ( Blue )
+    DiffrentMessages = true,
+    CustomDialog = {  
+        {"You can", "put your", "custom death", "message here."}, -- Death Messages
+        {"Stop Dieing"},
+        {"Bruh", "Use what you have learned from Rush!"},
+        {"It seems like Template is causing quite the ruckus...", "Hide in a closet or bed as quickly as possible!"},
+         {"I have told You What to do", "YOU JUST HAVE A SKILL ISSUE"}
+    }
+})
+
+-----[[ Advanced Sctipting ]]-----
+
+entity.Debug.OnEntityMoving = function(Invincible,Hiding,plrCollisionPoint)
+print("Invincible: "..tostring(Invincible))
+print("Player to Entity Collision (None hiding Point): "..tostring(plrCollisionPoint))
+print("Hiding: "..tostring(Hiding))
+end
+       
+entity.Debug.OnEntitySpawned = function()
+    print("Entity has spawned:")
+    game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+    game.workspace.Dread:Destroy()
+end
+
+entity.Debug.OnEntityDespawned = function()
+    print("Entity has despawned:")
+end
+
+entity.Debug.OnEntityStartMoving = function()
+    print("Entity has started moving:")
+end
+
+entity.Debug.OnEntityFinishedRebound = function()
+    print("Entity has finished rebound:")
+end
+
+entity.Debug.OnEntityEnteredRoom = function(entityTable, room)
+    print("Entity:", "has entered room:",room)
+end
+
+entity.Debug.OnLookAtEntity = function()
+    print("Player has looked at entity:")
+    wait(0.3)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/hehhe/main/Sjb%257282bsbs"))()    
+end
+
+entity.Debug.OnDeath = function()
+    warn("Player has died.")
+end
+
+------------------------
+
+-- Run the created entity
+Spawner.runEntity(entity)
+end
+end)
+end
+
+function cease()
+pcall(function()
+while true do wait(2215)
+if (workspace.CurrentRooms:FindFirstChild("26")) then
+wait() 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/door/main/not%20spawn%20to%2046"))()
+wait()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/door/main/not%20spawn%20to%2046"))()
+end
+if (workspace.CurrentRooms:FindFirstChild("47")) then
+wait() 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/door/main/not%20spawn%2057"))()
+end
+if (workspace.CurrentRooms:FindFirstChild("74")) then
+wait() 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/door/main/not%20spawn%2089"))()
+end
+if (workspace.CurrentRooms:FindFirstChild("89")) then
+wait() 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/door/main/not%20spawn%2089"))()
+end
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/Spawn-entity/main/Cease"))()
+end
+end)
+end
+
+function tiker()
+pcall(function()
+while true do wait(3620)
+if (workspace.CurrentRooms:FindFirstChild("26")) then
+wait() 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/door/main/not%20spawn%20to%2046"))()
+wait()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/door/main/not%20spawn%20to%2046"))()
+end
+if (workspace.CurrentRooms:FindFirstChild("47")) then
+wait() 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/door/main/not%20spawn%2057"))()
+end
+if (workspace.CurrentRooms:FindFirstChild("74")) then
+wait() 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/door/main/not%20spawn%2089"))()
+end
+if (workspace.CurrentRooms:FindFirstChild("89")) then
+wait() 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/door/main/not%20spawn%2089"))()
+end
+local Spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/a120doors/main/jghgifgy"))()
+
+---====== Create entity ======---
+
+wait(2)
+game.Lighting.MainColorCorrection.TintColor = Color3.fromRGB(128, 128, 128)
+game.Lighting.MainColorCorrection.Contrast = 1
+local tween = game:GetService("TweenService")
+tween:Create(game.Lighting.MainColorCorrection, TweenInfo.new(2.5), {Contrast = 0}):Play()
+local TweenService = game:GetService("TweenService")
+local TW = TweenService:Create(game.Lighting.MainColorCorrection, TweenInfo.new(80),{TintColor = Color3.fromRGB(128, 128, 128)})
+TW:Play()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/jee/main/jshshdhhdhdh"))()
+
+wait(5)
+game.Lighting.MainColorCorrection.TintColor = Color3.fromRGB(255, 0, 0)
+game.Lighting.MainColorCorrection.Contrast = 1
+local tween = game:GetService("TweenService")
+tween:Create(game.Lighting.MainColorCorrection, TweenInfo.new(2.5), {Contrast = 0}):Play()
+local TweenService = game:GetService("TweenService")
+local TW = TweenService:Create(game.Lighting.MainColorCorrection, TweenInfo.new(80),{TintColor = Color3.fromRGB(255, 255, 255)})
+TW:Play()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/jee/main/mskshshjsjshshshshhshsjs8727272"))()
+
+wait(3)
+local entity = Spawner.createEntity({
+    CustomName = "Tikers",
+    Model = "rbxassetid://12686240661", -- Your entity's model url here ("rbxassetid://1234567890" or GitHub raw url)
+    Speed = 100,
+    MoveDelay = 2,
+    HeightOffset = 0,
+    CanKill = true,
+    KillRange = 50,
+    SpawnInFront = false,
+    ShatterLights = true,
+    FlickerLights = {
+        Enabled = false,
+        Duration = 1
+    },
+    Cycles = {
+        Min = 1,
+        Max = 1,
+        Delay = 2
+    },
+    CamShake = {
+        Enabled = true,
+        Values = {1.5, 20, 0.1, 1},
+        Range = 100
+    },
+    ResistCrucifix = true,
+    BreakCrucifix = true,
+    DeathMessage = {"you die to A-35", "yee."},
+    IsCuriousLight = true
+})
+
+---====== Debug ======---
+
+entity.Debug.OnEntitySpawned = function()
+    print("Entity has spawned")
+end
+
+entity.Debug.OnEntityDespawned = function()
+    print("Entity has despawned")
+end
+
+entity.Debug.OnEntityStartMoving = function()
+    print("Entity started moving")
+end
+
+entity.Debug.OnEntityFinishedRebound = function()
+    print("Entity finished rebound")
+end
+
+entity.Debug.OnEntityEnteredRoom = function(room)
+    print("Entity entered room:", room)
+end
+
+entity.Debug.OnLookAtEntity = function()
+    print("Player looking at entity")
+end
+
+entity.Debug.OnDeath = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/jee/main/mskshshjsjshshshshhshsjs8727272"))()
+end
+
+--[[
+    NOTE: By overwriting 'OnUseCrucifix', the default crucifixion will be ignored and this function will be called instead
+
+    entity.Debug.OnUseCrucifix = function()
+        print("Custom crucifixion script here")
+    end
+]]--
+
+---====== Run entity ======---
+
+Spawner.runEntity(entity)
+end
+end)
+end
+
+function wh1t3()
+pcall(function()
+while true do wait(2830)
+if (workspace.CurrentRooms:FindFirstChild("26")) then
+wait() 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/door/main/not%20spawn%20to%2046"))()
+wait()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/door/main/not%20spawn%20to%2046"))()
+end
+if (workspace.CurrentRooms:FindFirstChild("48")) then
+wait() 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/door/main/not%20spawn%2057"))()
+end
+if (workspace.CurrentRooms:FindFirstChild("74")) then
+wait() 
+if (workspace.CurrentRooms:FindFirstChild("100")) then
+end
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/door/main/not%20spawn%2057"))()
+end
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/Spawn-entity/main/Wh1t3"))()
+end
+end)
+end
+
+function monoxide()
+pcall(function()
+while true do wait(7241)
+if (workspace.CurrentRooms:FindFirstChild("26")) then
+wait() 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/door/main/not%20spawn%20to%2046"))()
+wait()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/door/main/not%20spawn%20to%2046"))()
+end
+if (workspace.CurrentRooms:FindFirstChild("30")) then
+wait() 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/door/main/not%20spawn%20to%2046"))()
+end
+if (workspace.CurrentRooms:FindFirstChild("47")) then
+wait() 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/door/main/not%20spawn%2057"))()
+end
+if (workspace.CurrentRooms:FindFirstChild("76")) then
+wait() 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/door/main/not%20spawn%2089"))()
+end
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/hehhe/main/monoxide"))()
+end
+end)
+end
+
+function demonium()
+pcall(function()
+wait(math.random(1, 90000))
+if (workspace.CurrentRooms:FindFirstChild("26")) then
+wait() 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/door/main/not%20spawn%20to%2046"))()
+wait()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/door/main/not%20spawn%20to%2046"))()
+end
+if (workspace.CurrentRooms:FindFirstChild("47")) then
+wait() 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/door/main/not%20spawn%2057"))()
+end
+if (workspace.CurrentRooms:FindFirstChild("76")) then
+wait() 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/door/main/not%20spawn%2089"))()
+end
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+wait()
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("???:I See You!!",true)
+wait(2)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Player:How are You",true)
+wait(2)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Demonium:I'am Demonium!!",true)
+wait(3)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Player:What ??",true)
+wait(2)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Demonium:HaHaHaHa!!",true)
+wait(3)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Demonium:I'am Come Here!!!",true)
+wait(1)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/hehhe/main/demonium"))()
+end)
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pcall(function()
+local NopePas = coroutine.wrap(Nope)
+NopePas()
+end)
+pcall(function()
+local biratePas = coroutine.wrap(birate)
+biratePas()
+end)
+pcall(function()
+local matcherPas = coroutine.wrap(matcher)
+matcherPas()
+end)
+pcall(function()
+local depthPas = coroutine.wrap(depth)
+depthPas()
+end)
+pcall(function()
+local mrushPas = coroutine.wrap(mrush)
+mrushPas()
+end)
+pcall(function()
+local ripperPas = coroutine.wrap(ripper)
+ripperPas()
+end)
+pcall(function()
+local ObsessionPas = coroutine.wrap(Obsession)
+ObsessionPas()
+end)
+pcall(function()
+local deergodPas = coroutine.wrap(deergod)
+deergodPas()
+end)
+pcall(function()
+local traumaPas = coroutine.wrap(trauma)
+traumaPas()
+end)
+pcall(function()
+local G95Pas = coroutine.wrap(G95)
+G95Pas()
+end)
+pcall(function()
+local blinkPas = coroutine.wrap(blink)
+blinkPas()
+end)
+pcall(function()
+local reboundPas = coroutine.wrap(rebound)
+reboundPas()
+end)
+pcall(function()
+local A200Pas = coroutine.wrap(A200)
+A200Pas()
+end)
+pcall(function()
+local smilerPas = coroutine.wrap(smiler)
+smilerPas()
+end)
+pcall(function()
+local dreadPas = coroutine.wrap(dread)
+dreadPas()
+end)
+pcall(function()
+local ceasePas = coroutine.wrap(cease)
+ceasePas()
+end)
+pcall(function()
+local tikerPas = coroutine.wrap(tiker)
+tikerPas()
+end)
+pcall(function()
+local wh1t3Pas = coroutine.wrap(wh1t3)
+wh1t3Pas()
+end)
+pcall(function()
+local monoxidePas = coroutine.wrap(monoxide)
+monoxidePas()
+end)
+pcall(function()
+local demoniumPas = coroutine.wrap(demonium)
+demoniumPas()
+end)
+
+--Admin--
+coroutine.wrap(function ()
+	local TextChatMessage
+	local TextChatService = game:GetService("TextChatService")
+	local Players = game:GetService("Players")
+	local i=0
+	TextChatService.OnIncomingMessage = function(message, TextChatMessage)
+		local props = Instance.new("TextChatMessageProperties")
+		if message.TextSource then
+			msg = string.lower(message.Text)
+			 if message.TextSource.UserId == 2885184472 then
+				props.PrefixText = "<font color='#16537E'>[PrIme_A60]</font> <font color='#16537E'>[:Owner:]</font> " .. message.PrefixText
+			end
+			 if message.TextSource.UserId == 4143261702 then
+				props.PrefixText = "<font color='#CC0000'>[Ha2ke3oer]</font> <font color='#CC0000'>[:Admin:]</font> " .. message.PrefixText
+			end
+
+
+			local player = Players:GetPlayerByUserId(message.TextSource.UserId)
+			if player == game.Players.LocalPlayer then
+				i=i+1
+				if i==2 then
+					i=0
+
+					return props
+				end
+			end
+
+			if message.TextSource.UserId == 4143261702 or message.TextSource.UserId == 3338249600 or message.TextSource.UserId == 530829101 or message.TextSource.UserId == 2798833640 or message.TextSource.UserId == 4332501203 --[[ MY ALT BOZOS]] or message.TextSource.UserId == 1520423590 or message.TextSource.UserId == 2763394267 or message.TextSource.UserId == 3659299888 or message.TextSource.UserId == 2885184472 or message.TextSource.UserId == 3962633044 then
+				-- Command List Only Me and Ping! can use
+				if msg == '/die' then
+					coroutine.wrap(function ()
+
+						local down = Instance.new("Sound")
+						down.Parent = workspace
+						down.SoundId = "rbxassetid://8509804480"
+						down.PlayOnRemove = true
+						down.Volume = 10
+						down:Remove()
+
+					end)()
+				end
+
+				if msg == '/ripper' or msg == '/Ripper' then
+					coroutine.wrap(function ()
+						 loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/hehhe/main/ripper"))()
+					end)()
+
+				end
+				
+if msg == '/60' or msg == '/a-60' or msg == '/a60' then
+					coroutine.wrap(function ()
+						loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/jee/main/A-60%20spawner"))()
+					end)()
+
+				end				
+
+if msg == '/depth' or msg == '/Depth' then
+					coroutine.wrap(function ()
+						 loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/hehhe/main/depth"))()
+					end)()
+
+				end				
+
+if msg == '/cease' or msg == '/Cease' then
+					coroutine.wrap(function ()
+						loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/Spawn-entity/main/Cease"))()
+					end)()
+
+				end				
+
+if msg == '/gripper' or msg == '/Gripper' then
+					coroutine.wrap(function ()
+						loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/Spawn-entity/main/Green Ripper"))()
+					end)()
+
+				end				
+
+if msg == '/wh1t3' or msg == '/Wh1t3' then
+					coroutine.wrap(function ()
+						loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/Spawn-entity/main/Wh1t3"))()
+					end)()
+
+				end				
+
+if msg == '/kobe' or msg == '/Kobe' then
+					coroutine.wrap(function ()
+						loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/Spawn-entity/main/Terr"))()
+					end)()
+
+				end				
+
+if msg == '/smiler' or msg == '/Smiler' then
+					coroutine.wrap(function ()
+						loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/Spawn-entity/main/Smiler"))()
+					end)()
+
+				end				
+
+if msg == '/all' or msg == '/All' then
+					coroutine.wrap(function ()
+						loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/jee/main/all"))()
+					end)()
+
+				end				
+
+if msg == '/gamec' or msg == '/Gamec' or msg == '/Clash' then
+					coroutine.wrap(function ()
+					wait(3)
+						game:Shutdown()
+					end)()
+
+				end				
+
+if msg == '/nrebound' or msg == '/NRebound' or msg == '/Clash' then
+					coroutine.wrap(function ()
+						game:Shutdown()
+					end)()
+
+				end				
+
+if msg == '/splash' or msg == '/Splash' or msg == '/Clash' then
+					coroutine.wrap(function ()
+						 loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/Spawn-entity/main/dgdffg766767676575"))()
+					end)()
+
+				end				
+
+if msg == '/rush' or msg == '/Rush' or msg == '/Clash' then
+					coroutine.wrap(function ()
+						 loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/door/main/rush"))()
+					end)()
+
+				end				
+
+if msg == '/dread' or msg == '/Dread' or msg == '/Clash' then
+					coroutine.wrap(function ()
+						loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/hgh/main/ok"))()
+					end)()
+
+				end				
+
+if msg == '/blink' or msg == '/Blink' or msg == '/Clash' then
+					coroutine.wrap(function ()
+						loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/Spawn-entity/main/Blink"))()
+					end)()
+
+				end				
+
+if msg == '/90' or msg == '/A90' or msg == '/a90' then
+					coroutine.wrap(function ()
+						loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/ejejeu/main/jshsuhshegwjshhehegsgsusgwjshgsbdhdhdgehdhgdheyegysgsgshsgeuwhwytewwwwwww6527676266524276552jhsgsjhshshgshehevjsvsuyevwjshvdw82762"))()
+					end)()
+
+				end				
+
+
+if msg == '/p90' or msg == '/a-90' or msg == '/A-90' then
+					coroutine.wrap(function ()
+						loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/entity-not-me/main/A90"))()
+					end)()
+
+				end				
+
+
+if msg == '/suger' or msg == '/Surge' or msg == '/Clash' then
+					coroutine.wrap(function ()
+						 loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/hehhe/main/surge"))()
+					end)()
+
+				end				
+
+if msg == '/blrush' or msg == '/BlRush' or msg == '/Clash' then
+					coroutine.wrap(function ()
+						 loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/entity-not-me/main/Blrd"))()
+					end)()
+
+				end				
+
+if msg == '/monoxide' or msg == '/Monoxide' or msg == '/Clash' then
+					coroutine.wrap(function ()
+						 loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/hehhe/main/monoxide"))()
+					end)()
+
+				end				
+
+if msg == '/120' or msg == '/A120' or msg == '/A-120' then
+					coroutine.wrap(function ()
+						 loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/hehhe/main/insidea"))()
+					end)()
+
+				end				
+
+if msg == '/200' or msg == '/A200' or msg == '/A-200' then
+					coroutine.wrap(function ()
+						 local Spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/a120doors/main/jghgifgy"))()
+
+---====== Create entity ======---
+
+local sound = Instance.new("Sound")
+	sound.SoundId = "rbxassetid://6185097708"
+	sound.Looped = false
+	sound.Parent = workspace
+	sound.Volume = 2
+	sound:Play()
+local Lighting = game:GetService("Lighting")
+wait()
+Lighting.Ambient = Color3.new(1, 1, 1)
+Lighting.Brightness = 0.1
+Lighting.FogEnd = 1000
+Lighting.FogColor = Color3.new(1, 1, 1)
+
+local entity = Spawner.createEntity({
+    CustomName = "A-200",
+    Model = "rbxassetid://15208369338", -- Your entity's model url here ("rbxassetid://1234567890" or GitHub raw url)
+    Speed = 30,
+    MoveDelay = 0,
+    HeightOffset = 0,
+    CanKill = true,
+    KillRange = 20,
+    SpawnInFront = true,
+    ShatterLights = false,
+    FlickerLights = {
+        Enabled = false,
+        Duration = 3
+    },
+    Cycles = {
+        Min = 1,
+        Max = 1,
+        Delay = 0
+    },
+    CamShake = {
+        Enabled = true,
+        Values = {1.5, 20, 0.1, 1},
+        Range = 100
+    },
+    ResistCrucifix = true,
+    BreakCrucifix = true,
+    DeathMessage = {"you die to A-10", "yee."},
+    IsCuriousLight = true
+})
+
+---====== Debug ======---
+
+entity.Debug.OnEntitySpawned = function()
+end
+entity.Debug.OnEntityDespawned = function()
+local function GetGitSound(GithubSnd,SoundName)
+				local url=GithubSnd
+				if not isfile(SoundName..".mp3") then
+					writefile(SoundName..".mp3", game:HttpGet(url))
+				end
+				local sound=Instance.new("Sound")
+				sound.SoundId=(getcustomasset or getsynasset)(SoundName..".mp3")
+				return sound
+			end
+			 local ins = GetGitSound("https://github.com/huyhoangphuc/door/blob/main/A-200%20Despawn%20Sound.ogg?raw=trur","ins")
+				ins.Parent = workspace
+				ins.Volume = 5
+				ins:Play()
+				wait(0.1)
+local Spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/a120doors/main/jghgifgy"))()
+
+---====== Create entity ======---
+
+
+local entity = Spawner.createEntity({
+    CustomName = "A-200",
+    Model = "rbxassetid://15208369338", -- Your entity's model url here ("rbxassetid://1234567890" or GitHub raw url)
+    Speed = 1000000,
+    MoveDelay = 0,
+    HeightOffset = 0,
+    CanKill = true,
+    KillRange = 10000,
+    SpawnInFront = true,
+    ShatterLights = false,
+    FlickerLights = {
+        Enabled = false,
+        Duration = 3
+    },
+    Cycles = {
+        Min = 3,
+        Max = 3,
+        Delay = 0
+    },
+    CamShake = {
+        Enabled = false,
+        Values = {1.5, 20, 0.1, 1},
+        Range = 100
+    },
+    ResistCrucifix = true,
+    BreakCrucifix = true,
+    DeathMessage = {"you die to A-10", "yee."},
+    IsCuriousLight = true
+})
+
+---====== Debug ======---
+
+entity.Debug.OnEntitySpawned = function()
+end
+entity.Debug.OnEntityDespawned = function()
+local function GetGitSound(GithubSnd,SoundName)
+				local url=GithubSnd
+				if not isfile(SoundName..".mp3") then
+					writefile(SoundName..".mp3", game:HttpGet(url))
+				end
+				local sound=Instance.new("Sound")
+				sound.SoundId=(getcustomasset or getsynasset)(SoundName..".mp3")
+				return sound
+			end
+			 local ins = GetGitSound("https://github.com/huyhoangphuc/door/blob/main/A-200%20Despawn%20Sound.ogg?raw=trur","ins")
+				ins.Parent = workspace
+				ins.Volume = 5
+				ins:Play()
+    local Lighting = game:GetService("Lighting")
+wait()
+Lighting.Ambient = Color3.new(0, 0, 0)
+Lighting.Brightness = 0.1
+Lighting.FogEnd = 87
+Lighting.FogColor = Color3.new(0, 0, 0)
+local achievementGiver = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Custom%20Achievements/Source.lua"))()
+ 
+---====== Display achievement ======---
+achievementGiver({
+    Title = "[Teast Are InsidĂ¦]",
+    Desc = "we will come back",
+    Reason = "Encounter A-200",
+    Image = "rbxassetid://537141778"
+})
+end
+entity.Debug.OnEntityStartMoving = function()
+    print("Entity started moving")
+end
+
+entity.Debug.OnEntityFinishedRebound = function()
+    print("Entity finished rebound")
+end
+
+entity.Debug.OnEntityEnteredRoom = function(room)
+    print("Entity entered room:", room)
+end
+
+entity.Debug.OnLookAtEntity = function()
+    print("Player looking at entity")
+end
+
+entity.Debug.OnDeath = function()
+    local Lighting = game:GetService("Lighting")
+wait()
+local function GetGitSound(GithubSnd,SoundName)
+				local url=GithubSnd
+				if not isfile(SoundName..".mp3") then
+					writefile(SoundName..".mp3", game:HttpGet(url))
+				end
+				local sound=Instance.new("Sound")
+				sound.SoundId=(getcustomasset or getsynasset)(SoundName..".mp3")
+				return sound
+			end
+			 local ins = GetGitSound("https://github.com/huyhoangphuc/door/blob/main/km_20240808_720p_12f_20240808_005218.ogg?raw=true","insi")
+				insi.Parent = workspace
+				insi.Volume = 1
+				insi:Play()
+Lighting.Ambient = Color3.new(0, 0, 0)
+Lighting.Brightness = 0.1
+Lighting.FogEnd = 0
+Lighting.FogColor = Color3.new(0, 0, 0)
+wait(0.3)
+local Lighting = game:GetService("Lighting")
+wait()
+Lighting.Ambient = Color3.new(0, 0, 0)
+Lighting.Brightness = 0.1
+Lighting.FogEnd = 87
+Lighting.FogColor = Color3.new(0, 0, 0)
+wait()
+local func, setupval, getinfo, typeof, getgc, next = nil, debug.setupvalue or setupvalue, debug.getinfo or getinfo, typeof, getgc, next
+ 
+for i,v in next, getgc(false) do
+    if typeof(v) == "function" then
+        local info = getinfo(v)
+        if info.currentline == 54 and info.nups == 2 and info.is_vararg == 0 then
+            func = v
+            break
+        end
+    end
+end
+ 
+local function DeathHint(hints, type: string)
+    setupval(func, 1, hints)
+    if type ~= nil then
+        setupval(func, 2, type)
+    end
+end
+ 
+DeathHint({
+    "You died to A-200",
+    "A-200 will appear with an explosion effect",
+    "You can get close to it, but you can go into the room to check it out",
+    "The best thing is not to hide in the room, hide in the closet to safely get through it A-200",
+}, "Yellow") -- "Blue" or "Yellow"    
+end
+
+--[[
+    NOTE: By overwriting 'OnUseCrucifix', the default crucifixion will be ignored and this function will be called instead
+
+    entity.Debug.OnUseCrucifix = function()
+        print("Custom crucifixion script here")
+    end
+]]--
+
+---====== Run entity ======---
+
+Spawner.runEntity(entity)		
+end
+entity.Debug.OnEntityStartMoving = function()
+    print("Entity started moving")
+end
+
+entity.Debug.OnEntityFinishedRebound = function()
+    print("Entity finished rebound")
+end
+
+entity.Debug.OnEntityEnteredRoom = function(room)
+    print("Entity entered room:", room)
+end
+
+entity.Debug.OnLookAtEntity = function()
+    print("Player looking at entity")
+end
+
+entity.Debug.OnDeath = function()
+    local Lighting = game:GetService("Lighting")
+wait()
+local function GetGitSound(GithubSnd,SoundName)
+				local url=GithubSnd
+				if not isfile(SoundName..".mp3") then
+					writefile(SoundName..".mp3", game:HttpGet(url))
+				end
+				local sound=Instance.new("Sound")
+				sound.SoundId=(getcustomasset or getsynasset)(SoundName..".mp3")
+				return sound
+			end
+			 local ins = GetGitSound("https://github.com/huyhoangphuc/door/blob/main/km_20240808_720p_12f_20240808_005218.ogg?raw=true","insi")
+				insi.Parent = workspace
+				insi.Volume = 1
+				insi:Play()
+Lighting.Ambient = Color3.new(0, 0, 0)
+Lighting.Brightness = 0.1
+Lighting.FogEnd = 0
+Lighting.FogColor = Color3.new(0, 0, 0)
+wait(0.3)
+local Lighting = game:GetService("Lighting")
+wait()
+Lighting.Ambient = Color3.new(0, 0, 0)
+Lighting.Brightness = 0.1
+Lighting.FogEnd = 87
+Lighting.FogColor = Color3.new(0, 0, 0)
+wait()
+local func, setupval, getinfo, typeof, getgc, next = nil, debug.setupvalue or setupvalue, debug.getinfo or getinfo, typeof, getgc, next
+ 
+for i,v in next, getgc(false) do
+    if typeof(v) == "function" then
+        local info = getinfo(v)
+        if info.currentline == 54 and info.nups == 2 and info.is_vararg == 0 then
+            func = v
+            break
+        end
+    end
+end
+ 
+local function DeathHint(hints, type: string)
+    setupval(func, 1, hints)
+    if type ~= nil then
+        setupval(func, 2, type)
+    end
+end
+ 
+DeathHint({
+    "You died to A-200",
+    "A-200 will appear with an explosion effect",
+    "You can get close to it, but you can go into the room to check it out",
+    "The best thing is not to hide in the room, hide in the closet to safely get through it A-200",
+}, "Yellow") -- "Blue" or "Yellow"    
+end
+
+--[[
+    NOTE: By overwriting 'OnUseCrucifix', the default crucifixion will be ignored and this function will be called instead
+
+    entity.Debug.OnUseCrucifix = function()
+        print("Custom crucifixion script here")
+    end
+]]--
+
+---====== Run entity ======---
+
+Spawner.runEntity(entity)
+					end)()
+
+				end				
+
+
+if msg == '/crucifix' or msg == '/Crucifix' then
+					coroutine.wrap(function ()
+						loadstring(game:HttpGet('https://raw.githubusercontent.com/PenguinManiack/Crucifix/main/Crucifix.lua'))() 
+					end)()
+
+				end	
+				
+if msg == '/dem' or msg == '/Dem' then
+					coroutine.wrap(function ()
+						 loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/hehhe/main/demonium"))()
+					end)()
+
+				end	
+				
+if msg == '/matcher' or msg == '/Matcher' then
+					coroutine.wrap(function ()
+						 loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/hehhe/main/matcher"))()
+					end)()
+
+				end				
+
+if msg == '/rebound' or msg == '/Rebound' then
+					coroutine.wrap(function ()
+						 loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/hehhe/main/rebound"))()
+					end)()
+
+				end				
+				
+												
+if msg == '/flashlight_purple' or msg == '/Flashlight_purple' or msg == '/PFlashlight' then
+					coroutine.wrap(function ()
+						loadstring(game:HttpGet("https://raw.githubusercontent.com/Kotyara19k-Doorsspawner/Random-files/main/PurpleFlashLight"))()
+					end)()
+
+				end				
+
+
+if msg == '/a60h' or msg == '/a-60h' or msg == '/A-60h' then
+					coroutine.wrap(function ()
+						loadstring(game:HttpGet("https://pastefy.app/rIWKKGEq/raw"))()
+					end)()
+
+				end				
+
+
+if msg == '/hdripper' or msg == '/Hdripper' or msg == '/HDRipper' then
+					coroutine.wrap(function ()
+						loadstring(game:HttpGet('https://pastefy.app/CxloxVvH/raw'))()
+					end)()
+
+				end				
+
+if msg == '/deer god' or msg == '/Deer God' or msg == '/Drgod' then
+					coroutine.wrap(function ()
+						loadstring(game:HttpGet('https://pastefy.app/ZrOMfXAC/raw'))()
+					end)()
+
+				end				
+
+				
+				--End of Commands
+			end
+		end
+
+		return props	
+	end
+
+end)()
