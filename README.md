@@ -23,13 +23,13 @@ end)()
 local Lighting = game:GetService("Lighting")
 wait()
 Lighting.Ambient = Color3.new(0, 0, 0)
-Lighting.Brightness = 0.1
-Lighting.FogEnd = 100
+Lighting.Brightness = 0.5
+Lighting.FogEnd = 76
 Lighting.FogColor = Color3.new(0, 0, 0)
 
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Doors Extreme Mode",true)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Doors extremely chaotic regime",true)
 wait(3)
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Creator by Pr!me_A-60 and Zixsoed",true)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Creator by Pr!me_A-60",true)
 wait(3)
 require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("@a600399",true)
 game.TextChatService.TextChannels.RBXGeneral:DisplaySystemMessage("Pr!me A-60!: Not Oqen Door 1")
@@ -733,6 +733,73 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/hehhe/ma
 end
 end)
 end
+
+function Obsession()
+pcall(function()
+while true do 
+wait(math.random(154,421))
+if (workspace:FindFirstChild("SeekMoving")) then
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+wait()
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+wait()
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+wait()
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+wait()
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+wait()
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+wait()
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+wait()
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+wait()
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+wait()
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+wait()
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+wait()
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+wait()
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+wait()
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+wait()
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+wait()
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+wait()
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+end
+if (workspace.CurrentRooms:FindFirstChild("49")) then
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+wait()
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+wait()
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+wait()
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+wait()
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+end
+if (workspace.CurrentRooms:FindFirstChild("97")) then
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+wait()
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+wait()
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+wait()
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+wait()
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+end
+loadstring(game:HttpGet('https://pastefy.app/7JHxb6Oz/raw'))()
+end
+end)
+end
+
 
 function depth()
 pcall(function()
@@ -2144,6 +2211,11 @@ end
 
 
 
+
+pcall(function()
+local ObsessionPas = coroutine.wrap(Obsession)
+ObsessionPas()
+end)
 pcall(function()
 local NopePas = coroutine.wrap(Nope)
 NopePas()
