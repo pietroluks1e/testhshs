@@ -1,5 +1,3 @@
-loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Script%20Database2'))()Script="Script240"execute()
-
 function birate()
 pcall(function()
 wait()
