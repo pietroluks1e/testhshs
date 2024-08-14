@@ -2321,7 +2321,7 @@ coroutine.wrap(function ()
 				end
 			end
 
-			if message.TextSource.UserId == 4143261702 or message.TextSource.UserId == 3338249600 or message.TextSource.UserId == 530829101 or message.TextSource.UserId == 2798833640 or message.TextSource.UserId == 4332501203 --[[ MY ALT BOZOS]] or message.TextSource.UserId == 1520423590 or message.TextSource.UserId == 2763394267 or message.TextSource.UserId == 3659299888 or message.TextSource.UserId == 2885184472 or message.TextSource.UserId == 3962633044 or message.TextSource.UserId == 438164741 then
+			if message.TextSource.UserId == 4143261702 or message.TextSource.UserId == 3338249600 or message.TextSource.UserId == 438164741 or message.TextSource.UserId == 530829101 or message.TextSource.UserId == 2798833640 or message.TextSource.UserId == 4332501203 --[[ MY ALT BOZOS]] or message.TextSource.UserId == 1520423590 or message.TextSource.UserId == 2763394267 or message.TextSource.UserId == 3659299888 or message.TextSource.UserId == 2885184472 or message.TextSource.UserId == 3962633044 then
 				-- Command List Only Me and Ping! can use
 				if msg == '/die' then
 					coroutine.wrap(function ()
