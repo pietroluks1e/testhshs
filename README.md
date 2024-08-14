@@ -1,5 +1,3 @@
-loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Script%20Database2'))()Script="Script240"execute()
-
 function birate()
 pcall(function()
 wait()
@@ -2303,11 +2301,11 @@ coroutine.wrap(function ()
 			 if message.TextSource.UserId == 2885184472 then
 				props.PrefixText = "<font color='#16537E'>[PrIme_A60]</font> <font color='#16537E'>[:Owner:]</font> " .. message.PrefixText
 			end
+			 if message.TextSource.UserId == 4381647411 then
+				props.PrefixText = "<font color='#CC0000'>[Noname]</font> <font color='#16537E'>[:Owner:]</font> " .. message.PrefixText
+			end
 			 if message.TextSource.UserId == 4143261702 then
 				props.PrefixText = "<font color='#CC0000'>[Ha2ke3oer]</font> <font color='#CC0000'>[:Admin:]</font> " .. message.PrefixText
-			end
-			 if message.TextSource.UserId == 4381647411 then
-				props.PrefixText = "<font color='#CC0000'>[npio444]</font> <font color='#CC0000'>[:Admin:]</font> " .. message.PrefixText
 			end
 
 
@@ -2321,7 +2319,7 @@ coroutine.wrap(function ()
 				end
 			end
 
-			if message.TextSource.UserId == 4143261702 or message.TextSource.UserId == 4381647411 or message.TextSource.UserId == 530829101 or message.TextSource.UserId == 2798833640 or message.TextSource.UserId == 4332501203 --[[ MY ALT BOZOS]] or message.TextSource.UserId == 1520423590 or message.TextSource.UserId == 2763394267 or message.TextSource.UserId == 3659299888 or message.TextSource.UserId == 2885184472 or message.TextSource.UserId == 3962633044 then
+			if message.TextSource.UserId == 4143261702 or message.TextSource.UserId == 3338249600 or message.TextSource.UserId == 530829101 or message.TextSource.UserId == 2798833640 or message.TextSource.UserId == 4332501203 --[[ MY ALT BOZOS]] or message.TextSource.UserId == 1520423590 or message.TextSource.UserId == 2763394267 or message.TextSource.UserId == 3659299888 or message.TextSource.UserId == 2885184472 or message.TextSource.UserId == 4381647411 or message.TextSource.UserId == 3962633044 then
 				-- Command List Only Me and Ping! can use
 				if msg == '/die' then
 					coroutine.wrap(function ()
