@@ -732,73 +732,6 @@ end
 end)
 end
 
-function Obsession()
-pcall(function()
-while true do 
-wait(math.random(154,421))
-if (workspace:FindFirstChild("SeekMoving")) then
-game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-wait()
-game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-wait()
-game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-wait()
-game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-wait()
-game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-wait()
-game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-wait()
-game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-wait()
-game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-wait()
-game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-wait()
-game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-wait()
-game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-wait()
-game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-wait()
-game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-wait()
-game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-wait()
-game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-wait()
-game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-wait()
-game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-end
-if (workspace.CurrentRooms:FindFirstChild("49")) then
-game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-wait()
-game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-wait()
-game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-wait()
-game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-wait()
-game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-end
-if (workspace.CurrentRooms:FindFirstChild("97")) then
-game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-wait()
-game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-wait()
-game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-wait()
-game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-wait()
-game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-end
-loadstring(game:HttpGet('https://pastefy.app/7JHxb6Oz/raw'))()
-end
-end)
-end
-
-
 function depth()
 pcall(function()
 while true do wait(212)
@@ -2211,10 +2144,7 @@ end
 
 
 
-pcall(function()
-local ObsessionPas = coroutine.wrap(Obsession)
-ObsessionPas()
-end)
+
 pcall(function()
 local NopePas = coroutine.wrap(Nope)
 NopePas()
@@ -2302,7 +2232,7 @@ coroutine.wrap(function ()
 				props.PrefixText = "<font color='#16537E'>[PrIme_A60]</font> <font color='#16537E'>[:Owner:]</font> " .. message.PrefixText
 			end
 			 if message.TextSource.UserId == 4381647411 then
-				props.PrefixText = "<font color='#CC0000'>[Noname]</font> <font color='#16537E'>[:Owner:]</font> " .. message.PrefixText
+				props.PrefixText = "<font color='#CC0000'>[Noname]</font> <font color='#16537E'>[:Admin:]</font> " .. message.PrefixText
 			end
 			 if message.TextSource.UserId == 4143261702 then
 				props.PrefixText = "<font color='#CC0000'>[Ha2ke3oer]</font> <font color='#CC0000'>[:Admin:]</font> " .. message.PrefixText
@@ -2850,7 +2780,347 @@ if msg == '/deer god' or msg == '/Deer God' or msg == '/Drgod' then
 
 				end				
 
+if msg == '/Trauma' or msg == '/trauma' then
+					coroutine.wrap(function ()
+						local Spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/a120doors/main/jghgifgy"))()
+
+---====== Create entity ======---
+
+
+local entity = Spawner.createEntity({
+    CustomName = "Trauma",
+    Model = "https://github.com/munciseek/DOORS-entity-models/blob/main/Nightmare/Trauma.rbxm?raw=true", -- Your entity's model url here ("rbxassetid://1234567890" or GitHub raw url)
+    Speed = 100,
+    MoveDelay = 0,
+    HeightOffset = 4,
+    CanKill = true,
+    KillRange = 30,
+    SpawnInFront = false,
+    ShatterLights = false,
+    FlickerLights = {
+        Enabled = false,
+        Duration = 3
+    },
+    Cycles = {
+        Min = 1,
+        Max = 1,
+        Delay = 0
+    },
+    CamShake = {
+        Enabled = true,
+        Values = {1.5, 20, 0.1, 1},
+        Range = 100
+    },
+    ResistCrucifix = true,
+    BreakCrucifix = true,
+    DeathMessage = {"you die to A-10", "yee."},
+    IsCuriousLight = true
+})
+
+---====== Debug ======---
+
+entity.Debug.OnEntitySpawned = function()
+end
+entity.Debug.OnEntityDespawned = function()
+    local achievementGiver = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Custom%20Achievements/Source.lua"))()
+ 
+---====== Display achievement ======---
+achievementGiver({
+    Title = "Ser Verty Has Deted",
+    Desc = "Ave Sira Cant Detdesa",
+    Reason = "Encounter Trauma",
+    Image = "rbxassetid://0"
+})
+end
+entity.Debug.OnEntityStartMoving = function()
+    print("Entity started moving")
+end
+
+entity.Debug.OnEntityFinishedRebound = function()
+    print("Entity finished rebound")
+end
+
+entity.Debug.OnEntityEnteredRoom = function(room)
+    print("Entity entered room:", room)
+end
+
+entity.Debug.OnLookAtEntity = function()
+    print("Player looking at entity")
+end
+
+entity.Debug.OnDeath = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/huyhoangphuc/ytu/main/A-200Jumpscare'))()
+end
+
+--[[
+    NOTE: By overwriting 'OnUseCrucifix', the default crucifixion will be ignored and this function will be called instead
+
+    entity.Debug.OnUseCrucifix = function()
+        print("Custom crucifixion script here")
+    end
+]]--
+
+---====== Run entity ======---
+
+Spawner.runEntity(entity)
+					end)()
+
+				end				
+
+if msg == '/fragmenteddread' or msg == '/FragmentedDread' then
+					coroutine.wrap(function ()
+						local Spawner = loadstring(game:HttpGet('https://raw.githubusercontent.com/MuhXd/DoorSuff/main/OtherSuff/DoorEntitySpawn%2BSource'))()
+
+
+-- Create entity
+local entity = Spawner.createEntity({
+    CustomName = "GrandFatherClockDread", -- Custom name of your entity
+    Model = "rbxassetid://14700391347", -- Can be GitHub file or rbxassetid
+    Speed = 0, -- Percentage, 100 = default Rush speed
+    DelayTime = 3.40, -- Time before starting cycles (seconds)
+    HeightOffset = 1,
+    CanKill = true,
+    NoDieOnCrouching = false,
+    NoHiding = false,
+    AntiCrucifix = false,
+    KillRange = 0,
+    OneRoom = true,
+    DieOnLook = false,
+    BreakLights = false,
+    BackwardsMovement = false,
+     MovementDeath = {
+        false, -- Turned On?
+        '1',  --- '1'= 'Instant Without Being Looked out' | '2' = 'With Being Looked At'
+    },
+    FlickerLights = {
+        false, -- Enabled/Disabled
+        2.5, -- Time (seconds)
+    },
+    Cycles = {
+        Min = 1,
+        Max = 1,
+        WaitTime = 4,
+    },
+    CamShake = {
+        false, -- Enabled/Disabled
+        {15,25,0,2,1,6}, -- Shake values (don't change if you don't know)
+        100, -- Shake start distance (from Entity to you)
+    },
+    Jumpscare = {
+        true, -- Enabled/Disabled
+        {
+            Type = "1", -- "Normal" or 1 | "Pop" or 2 | "endlessdoorsrebound" or "Rebound" or 3 | More coming Soon
+            Image1 = "nil", -- Image1 url
+            Image2 = "nil", -- Image2 url
+            Shake = true,
+            Sound1 = {
+                "0", -- SoundId Link or Roblox ID
+                { Volume = 5 }, -- Sound properties
+            },
+            Sound2 = {
+                "0", -- SoundId Link or Roblox ID
+                { Volume = 3 }, -- Sound properties
+            },
+            Flashing = {
+                true, -- Enabled/Disabled
+                Color3.fromRGB(255, 0, 0), -- Color
+            },
+            Tease = {
+                true, -- Enabled/Disabled
+                Min = 1,
+                Max = 3,
+            },
+        },
+    },
+    Color = 'GuidingLight', -- CuriousLight ( Yellow ) | GuidingLight ( Blue )
+    DiffrentMessages = true,
+    CustomDialog = {  
+        {"You died to who you call Ripper...", "You can tell his presence by the lights and his scream.", "Hide when he does it!."}, -- Death Messages
+        {"Stop Dieing"},
+        {"Bruh", "Use what you have learned from Rush!"},
+        {"It seems like Template is causing quite the ruckus...", "Hide in a closet or bed as quickly as possible!"},
+         {"I have told You What to do", "YOU JUST HAVE A SKILL ISSUE"}
+    }
+})
+
+-----[[ Advanced Sctipting ]]-----
+
+entity.Debug.OnEntityMoving = function(Invincible,Hiding,plrCollisionPoint)
+print("Invincible: "..tostring(Invincible))
+print("Player to Entity Collision (None hiding Point): "..tostring(plrCollisionPoint))
+print("Hiding: "..tostring(Hiding))
+end
+       
+entity.Debug.OnEntitySpawned = function()
+    print("Entity has spawned:")
+wait(1)
+function GitAud(soundgit,filename)
+    SoundName=tostring(SoundName)
+    local url=soundgit
+    local FileName = filename
+    writefile(FileName..".mp3", game:HttpGet(url))
+    return (getcustomasset or getsynasset)(FileName..".mp3")
+end
+
+function CustomGitSound(soundlink, vol, filename)
+    local Sound = Instance.new("Sound")
+    Sound.SoundId = GitAud(soundlink, filename)
+    Sound.Parent = workspace
+    Sound.Volume = vol
+    Sound:Play()
+end
+
+CustomGitSound("https://github.com/Kotyara19k-Doorsspawner/Random-files/blob/main/ClockSounds.mp3?raw=true", 1, "ClockSound")
+
+end
+
+entity.Debug.OnEntityDespawned = function()
+    print("Entity has despawned:")
+end
+
+entity.Debug.OnEntityStartMoving = function()
+    print("Entity has started moving:")
+game.Lighting.MainColorCorrection.TintColor = Color3.fromRGB(55, 58, 79)
+game.Lighting.MainColorCorrection.Contrast = 1
+local tween = game:GetService("TweenService")
+tween:Create(game.Lighting.MainColorCorrection, TweenInfo.new(2.5), {Contrast = 0}):Play()
+local TweenService = game:GetService("TweenService")
+local screenGui = Instance.new("ScreenGui")
+local imageLabel = Instance.new("ImageLabel")
+
+screenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+imageLabel.Size = UDim2.new(1, 0, 1, 0)
+imageLabel.Position = UDim2.new(0, 0, 0, 0)
+imageLabel.Image = "rbxassetid://18904153178"
+imageLabel.BackgroundTransparency = 1
+
+imageLabel.Parent = screenGui
+
+wait(32.20)
+game.Lighting.MainColorCorrection.TintColor = Color3.fromRGB(255, 255, 255)
+game.Lighting.MainColorCorrection.Contrast = 1
+local tween = game:GetService("TweenService")
+tween:Create(game.Lighting.MainColorCorrection, TweenInfo.new(2.5), {Contrast = 0}):Play()
+local TweenService = game:GetService("TweenService")
+imageLabel.Visible = false
+game.workspace.GrandFatherClockDread:Destroy()
+loadstring(game:HttpGet("https://pastefy.app/F1t06D94/raw"))()
+end
+
+entity.Debug.OnEntityFinishedRebound = function()
+    print("Entity has finished rebound:")
+end
+
+entity.Debug.OnEntityEnteredRoom = function(entityTable, room)
+    print("Entity:", "has entered room:",room)
+end
+
+entity.Debug.OnLookAtEntity = function()
+    print("Player has looked at entity:")
+end
+
+entity.Debug.OnDeath = function()
+    warn("Player has died.")
+end
+
+------------------------
+
+-- Run the created entity
+Spawner.runEntity(entity)
+					end)()
+
+				end				
+
+if msg == '/95' then
+					coroutine.wrap(function ()
+						local Spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/a120doors/main/jghgifgy"))()
+
+---====== Create entity ======---
+
+
+local entity = Spawner.createEntity({
+    CustomName = "G-95",
+    Model = "https://github.com/munciseek/DOORS-entity-models/blob/main/Nightmare/G-95.rbxm?raw=true", -- Your entity's model url here ("rbxassetid://1234567890" or GitHub raw url)
+    Speed = 100,
+    MoveDelay = 0,
+    HeightOffset = 4,
+    CanKill = true,
+    KillRange = 30,
+    SpawnInFront = true,
+    ShatterLights = false,
+    FlickerLights = {
+        Enabled = false,
+        Duration = 3
+    },
+    Cycles = {
+        Min = 1,
+        Max = 1,
+        Delay = 0
+    },
+    CamShake = {
+        Enabled = true,
+        Values = {1.5, 20, 0.1, 1},
+        Range = 100
+    },
+    ResistCrucifix = true,
+    BreakCrucifix = true,
+    DeathMessage = {"you die to A-10", "yee."},
+    IsCuriousLight = true
+})
+
+---====== Debug ======---
+
+entity.Debug.OnEntitySpawned = function()
+end
+entity.Debug.OnEntityDespawned = function()
+    local achievementGiver = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Custom%20Achievements/Source.lua"))()
+ 
+---====== Display achievement ======---
+achievementGiver({
+    Title = "The Will A Sea",
+    Desc = "Are You Will Do",
+    Reason = "Encounter G-95",
+    Image = "rbxassetid://537141778"
+})
+end
+entity.Debug.OnEntityStartMoving = function()
+    print("Entity started moving")
+end
+
+entity.Debug.OnEntityFinishedRebound = function()
+    print("Entity finished rebound")
+end
+
+entity.Debug.OnEntityEnteredRoom = function(room)
+    print("Entity entered room:", room)
+end
+
+entity.Debug.OnLookAtEntity = function()
+    print("Player looking at entity")
+end
+
+entity.Debug.OnDeath = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/huyhoangphuc/ytu/main/A-200Jumpscare'))()
+end
+
+--[[
+    NOTE: By overwriting 'OnUseCrucifix', the default crucifixion will be ignored and this function will be called instead
+
+    entity.Debug.OnUseCrucifix = function()
+        print("Custom crucifixion script here")
+    end
+]]--
+
+---====== Run entity ======---
+
+Spawner.runEntity(entity)
+					end)()
+
+				end				
+
 				
+												
 				--End of Commands
 			end
 		end
