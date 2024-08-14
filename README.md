@@ -1007,6 +1007,7 @@ game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
 wait()
 game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
 end
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
 loadstring(game:HttpGet('https://pastefy.app/OKEYpboe/raw'))()
 end
 end)
@@ -2120,7 +2121,7 @@ end
 
 function demonium()
 pcall(function()
-wait(math.random(1, 310))
+wait(math.random(1, 26190))
 if (workspace:FindFirstChild("SeekMoving")) then
 game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
 wait()
