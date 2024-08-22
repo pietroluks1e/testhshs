@@ -10,11 +10,11 @@ coroutine.wrap(function()
 while true do
 game.ReplicatedStorage.Entities.Screech.Top.Eyes.Color = Color3.fromRGB(255, 0, 0)
 game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game.RemoteListener.Modules.Screech.Caught.SoundId = "rbxassetid://537141778"
-game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game.RemoteListener.Modules.Screech.Caught.PlaybackSpeed = 0.3
+game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game.RemoteListener.Modules.Screech.Caught.PlaybackSpeed = 1.6
 game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game.RemoteListener.Modules.Screech.Attack.SoundId = "rbxassetid://6754147732"
 wait()
 game.Workspace.Ambience_Dark.SoundId = "rbxassetid://8132494511"
-game.Workspace.Ambience_Dark.PlaybackSpeed = 5
+game.Workspace.Ambience_Dark.PlaybackSpeed = 1
 end
 end)()
 
@@ -25,7 +25,7 @@ Lighting.Brightness = 0.1
 Lighting.FogEnd = 100
 Lighting.FogColor = Color3.new(0, 0, 0)
 
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Doors Extreme Mode",true)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Doors Extreme Mode Update",true)
 wait(3)
 require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Creator by Pr!me_A-60 and Zixsoed",true)
 wait(3)
@@ -150,189 +150,9 @@ require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("
 wait(0.8)
 require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait .. ",true)
 wait(0.8)
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait ... ",true)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Oqen Door 1",true)
 end
-if (workspace.CurrentRooms:FindFirstChild("2")) then
 wait()
-game.Players.LocalPlayer:Kick("What Do You Oqen door 1")
-end
-if (workspace.CurrentRooms:FindFirstChild("1")) then
-wait(0.8)
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait . ",true)
-wait(0.8)
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait .. ",true)
-wait(0.8)
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait ... ",true)
-end
-if (workspace.CurrentRooms:FindFirstChild("2")) then
-wait()
-game.Players.LocalPlayer:Kick("What Do You Oqen door 1")
-end
-if (workspace.CurrentRooms:FindFirstChild("1")) then
-wait(0.8)
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait . ",true)
-wait(0.8)
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait .. ",true)
-wait(0.8)
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait ... ",true)
-end
-if (workspace.CurrentRooms:FindFirstChild("2")) then
-wait()
-game.Players.LocalPlayer:Kick("What Do You Oqen door 1")
-end
-if (workspace.CurrentRooms:FindFirstChild("1")) then
-wait(0.8)
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait . ",true)
-wait(0.8)
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait .. ",true)
-wait(0.8)
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait ... ",true)
-end
-if (workspace.CurrentRooms:FindFirstChild("2")) then
-wait()
-game.Players.LocalPlayer:Kick("What Do You Oqen door 1")
-end
-if (workspace.CurrentRooms:FindFirstChild("1")) then
-wait(0.8)
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait . ",true)
-wait(0.8)
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait .. ",true)
-wait(0.8)
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait ... ",true)
-end
-if (workspace.CurrentRooms:FindFirstChild("2")) then
-wait()
-game.Players.LocalPlayer:Kick("What Do You Oqen door 1")
-end
-if (workspace.CurrentRooms:FindFirstChild("1")) then
-wait(0.8)
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait . ",true)
-wait(0.8)
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait .. ",true)
-wait(0.8)
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait ... ",true)
-end
-if (workspace.CurrentRooms:FindFirstChild("2")) then
-wait()
-game.Players.LocalPlayer:Kick("What Do You Oqen door 1")
-end
-if (workspace.CurrentRooms:FindFirstChild("1")) then
-wait(0.8)
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait . ",true)
-wait(0.8)
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait .. ",true)
-wait(0.8)
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait ... ",true)
-end
-if (workspace.CurrentRooms:FindFirstChild("2")) then
-wait()
-game.Players.LocalPlayer:Kick("What Do You Oqen door 1")
-end
-if (workspace.CurrentRooms:FindFirstChild("1")) then
-wait(0.8)
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait . ",true)
-wait(0.8)
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait .. ",true)
-wait(0.8)
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait ... ",true)
-end
-if (workspace.CurrentRooms:FindFirstChild("1")) then
-wait(0.8)
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait . ",true)
-wait(0.8)
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait .. ",true)
-wait(0.8)
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait ... ",true)
-end
-if (workspace.CurrentRooms:FindFirstChild("1")) then
-wait(0.8)
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait . ",true)
-wait(0.8)
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait .. ",true)
-wait(0.8)
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait ... ",true)
-end
-if (workspace.CurrentRooms:FindFirstChild("1")) then
-wait(0.8)
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait . ",true)
-wait(0.8)
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait .. ",true)
-wait(0.8)
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait ... ",true)
-end
-if (workspace.CurrentRooms:FindFirstChild("1")) then
-wait(0.8)
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait . ",true)
-wait(0.8)
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait .. ",true)
-wait(0.8)
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait ... ",true)
-end
-if (workspace.CurrentRooms:FindFirstChild("1")) then
-wait(0.8)
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait . ",true)
-wait(0.8)
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait .. ",true)
-wait(0.8)
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait ... ",true)
-end
-if (workspace.CurrentRooms:FindFirstChild("1")) then
-wait(0.8)
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait . ",true)
-wait(0.8)
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait .. ",true)
-wait(0.8)
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait ... ",true)
-end
-if (workspace.CurrentRooms:FindFirstChild("1")) then
-wait(0.8)
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait . ",true)
-wait(0.8)
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait .. ",true)
-wait(0.8)
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait ... ",true)
-end
-if (workspace.CurrentRooms:FindFirstChild("1")) then
-wait(0.8)
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait . ",true)
-wait(0.8)
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait .. ",true)
-wait(0.8)
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait ... ",true)
-end
-if (workspace.CurrentRooms:FindFirstChild("1")) then
-wait(0.8)
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait . ",true)
-wait(0.8)
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait .. ",true)
-wait(0.8)
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait ... ",true)
-end
-if (workspace.CurrentRooms:FindFirstChild("2")) then
-wait()
-game.Players.LocalPlayer:Kick("What Do You Oqen door 1")
-end
-if (workspace.CurrentRooms:FindFirstChild("1")) then
-wait(0.8)
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait . ",true)
-wait(0.8)
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait .. ",true)
-wait(0.8)
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait ... ",true)
-end
-if (workspace.CurrentRooms:FindFirstChild("2")) then
-wait()
-game.Players.LocalPlayer:Kick("What Do You Oqen door 1")
-end
-if (workspace.CurrentRooms:FindFirstChild("1")) then
-wait(0.8)
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait . ",true)
-wait(0.8)
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait .. ",true)
-wait(0.8)
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Not Oqen Door 1 Wait ... ",true)
-end
-wait(0.8)
 pcall(function()
 spawn(function()
 	while wait() do
@@ -431,13 +251,64 @@ horrorSound:Play()
 function Nope()
 pcall(function()
 while true do wait()
-game.workspace.DeerGod.RushNew.Anchored = true
+game.workspace.DeerGod.RushNew.Anchored = false
 wait()
-game.workspace.Matcher.RushNew.Anchored = true
+game.workspace.Matcher.RushNew.Anchored = false
 wait()
-game.workspace.Rebound.RushNew.Anchored = true
+game.workspace.Rebound.RushNew.Anchored = false
 wait()
-game.workspace.Cease.HSURp.Anchored = true
+game.workspace.Cease.HSURp.Anchored = false
+end
+end)
+end
+
+function Shocker()
+pcall(function()
+while true do
+wait(math.random(20, 30))
+if (workspace:FindFirstChild("SeekMoving")) then
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+wait()
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+wait()
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+wait()
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+wait()
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+wait()
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+wait()
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+wait()
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+wait()
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+wait()
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+wait()
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+wait()
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+wait()
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+wait()
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+wait()
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+wait()
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+wait()
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+end
+if (workspace.CurrentRooms:FindFirstChild("49")) then
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+wait()
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+wait()
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+end
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/Spawn-entity/main/Shocker"))()
 end
 end)
 end
@@ -3870,7 +3741,7 @@ end
 
 entity.Debug.OnLookAtEntity = function()
     print("Player has looked at entity:")
-    game.Players.LocalPlayer.Character.Humanoid.Health -= 0.31
+    game.Players.LocalPlayer.Character.Humanoid.Health -= 0.5
     game.workspace.Wh1t3.whiteyNew.Anchored = false
     wait(0.1)
     game.workspace.Wh1t3.whiteyNew.Anchored = true
