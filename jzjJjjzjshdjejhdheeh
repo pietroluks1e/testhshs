@@ -1,3 +1,118 @@
+function Shocker()
+pcall(function()
+while true do
+wait(math.random(20, 30))
+local Players = game:GetService("Players")
+local Workspace = game:GetService("Workspace")
+
+local player = Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+local humanoid = character:WaitForChild("Humanoid")
+
+local function spawnShocker()
+    local shockerModel = game:GetObjects("rbxassetid://11547803978")[1]
+    shockerModel.PrimaryPart = shockerModel:FindFirstChild("HumanoidRootPart") or shockerModel:FindFirstChildWhichIsA("Part")
+    
+    local camera = Workspace.CurrentCamera
+    shockerModel:SetPrimaryPartCFrame(camera.CFrame * CFrame.new(0, 0, -7))
+    shockerModel.Parent = Workspace
+
+    local oogaBoogaaPart = shockerModel:WaitForChild("OOGA BOOGAAAA")
+    local horrorScream = shockerModel:WaitForChild("OOGA BOOGAAAA"):WaitForChild("HORROR SCREAM 15")
+
+    local lookDuration = 4
+    local startTime = tick()
+    local playerLookingAtShocker = true
+
+    while playerLookingAtShocker do
+        wait(0.1)
+
+        local angle = (oogaBoogaaPart.Position - character.PrimaryPart.Position).unit
+        local direction = camera.CFrame.LookVector
+
+        if (angle:Dot(direction) > 0.9) then
+            if tick() - startTime >= lookDuration then
+                horrorScream:Play()
+                humanoid:TakeDamage(30)
+                local function GetGitSound(GithubSnd,SoundName)
+				local url=GithubSnd
+				if not isfile(SoundName..".mp3") then
+					writefile(SoundName..".mp3", game:HttpGet(url))
+				end
+				local sound=Instance.new("Sound")
+				sound.SoundId=(getcustomasset or getsynasset)(SoundName..".mp3")
+				return sound
+			end
+			game.Lighting.MainColorCorrection.TintColor = Color3.fromRGB(255, 255, 255)
+	game.Lighting.MainColorCorrection.Contrast = 1
+	local tween = game:GetService("TweenService")
+	tween:Create(game.Lighting.MainColorCorrection, TweenInfo.new(2.5), {Contrast = 0}):Play()
+	local TweenService = game:GetService("TweenService")
+	local TW = TweenService:Create(game.Lighting.MainColorCorrection, TweenInfo.new(80),{TintColor = Color3.fromRGB(255, 255, 255)})
+	TW:Play()
+        local ShokerJC = GetGitSound("https://github.com/huyhoanphuc/thh/blob/main/km_20240823_720p_12f_20240823_021809.mp3?raw=true","ShokerJC")
+				ShokerJC.Parent = workspace
+				ShokerJC.Volume = 1.3
+				ShokerJC:Play()
+                playerLookingAtShocker = false
+
+                local speed = 10
+                local targetPosition = character.PrimaryPart.Position
+
+                while oogaBoogaaPart.Position.Y > targetPosition.Y do
+                    local directionToPlayer = (targetPosition - oogaBoogaaPart.Position).unit
+                    oogaBoogaaPart.Position = oogaBoogaaPart.Position + directionToPlayer * speed * 0.1
+                    wait(0.1)
+                end
+
+                oogaBoogaaPart.CanCollide = false
+                oogaBoogaaPart.Anchored = false
+                wait(3)
+                shockerModel:Destroy()
+game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "Shocker"
+local func, setupval, getinfo, typeof, getgc, next = nil, debug.setupvalue or setupvalue, debug.getinfo or getinfo, typeof, getgc, next
+
+for i,v in next, getgc(false) do
+    if typeof(v) == "function" then
+        local info = getinfo(v)
+        if info.currentline == 54 and info.nups == 2 and info.is_vararg == 0 then
+            func = v
+            break
+        end
+    end
+end
+
+local function DeathHint(hints, type: string)
+    setupval(func, 1, hints)
+    if type ~= nil then
+        setupval(func, 2, type)
+    end
+end
+
+DeathHint({
+    "You died to who you call Shocker...",
+    "Dont look at it or it stuns you!"
+}, "Blue") -- "Blue" or "Yellow"
+                break
+            end
+        else
+            
+            oogaBoogaaPart.CanCollide = false
+            oogaBoogaaPart.Anchored = false
+            break
+        end
+    end
+oogaBoogaaPart.CanCollide = false
+oogaBoogaaPart.Anchored = false
+wait(3)
+    shockerModel:Destroy()
+end
+
+spawnShocker()
+end
+end)
+end
+
 function birate()
 pcall(function()
 wait()
@@ -258,163 +373,6 @@ wait()
 game.workspace.Rebound.RushNew.Anchored = false
 wait()
 game.workspace.Cease.HSURp.Anchored = false
-end
-end)
-end
-
-function Shocker()
-pcall(function()
-while true do
-wait(math.random(20, 30))
-if (workspace:FindFirstChild("SeekMoving")) then
-game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-wait()
-game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-wait()
-game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-wait()
-game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-wait()
-game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-wait()
-game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-wait()
-game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-wait()
-game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-wait()
-game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-wait()
-game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-wait()
-game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-wait()
-game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-wait()
-game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-wait()
-game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-wait()
-game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-wait()
-game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-wait()
-game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-end
-if (workspace.CurrentRooms:FindFirstChild("49")) then
-game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-wait()
-game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-wait()
-game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-end
-local Players = game:GetService("Players")
-local Workspace = game:GetService("Workspace")
-
-local player = Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoid = character:WaitForChild("Humanoid")
-
-local function spawnShocker()
-    local shockerModel = game:GetObjects("rbxassetid://11547803978")[1]
-    shockerModel.PrimaryPart = shockerModel:FindFirstChild("HumanoidRootPart") or shockerModel:FindFirstChildWhichIsA("Part")
-    
-    local camera = Workspace.CurrentCamera
-    shockerModel:SetPrimaryPartCFrame(camera.CFrame * CFrame.new(0, 0, -7))
-    shockerModel.Parent = Workspace
-
-    local oogaBoogaaPart = shockerModel:WaitForChild("OOGA BOOGAAAA")
-    local horrorScream = shockerModel:WaitForChild("OOGA BOOGAAAA"):WaitForChild("HORROR SCREAM 15")
-
-    local lookDuration = 4
-    local startTime = tick()
-    local playerLookingAtShocker = true
-
-    while playerLookingAtShocker do
-        wait(0.1)
-
-        local angle = (oogaBoogaaPart.Position - character.PrimaryPart.Position).unit
-        local direction = camera.CFrame.LookVector
-
-        if (angle:Dot(direction) > 0.9) then
-            if tick() - startTime >= lookDuration then
-                horrorScream:Play()
-                humanoid:TakeDamage(30)
-                local function GetGitSound(GithubSnd,SoundName)
-				local url=GithubSnd
-				if not isfile(SoundName..".mp3") then
-					writefile(SoundName..".mp3", game:HttpGet(url))
-				end
-				local sound=Instance.new("Sound")
-				sound.SoundId=(getcustomasset or getsynasset)(SoundName..".mp3")
-				return sound
-			end
-			game.Lighting.MainColorCorrection.TintColor = Color3.fromRGB(255, 255, 255)
-	game.Lighting.MainColorCorrection.Contrast = 1
-	local tween = game:GetService("TweenService")
-	tween:Create(game.Lighting.MainColorCorrection, TweenInfo.new(2.5), {Contrast = 0}):Play()
-	local TweenService = game:GetService("TweenService")
-	local TW = TweenService:Create(game.Lighting.MainColorCorrection, TweenInfo.new(80),{TintColor = Color3.fromRGB(255, 255, 255)})
-	TW:Play()
-        local ShokerJC = GetGitSound("https://github.com/huyhoanphuc/thh/blob/main/km_20240823_720p_12f_20240823_021809.mp3?raw=true","ShokerJC")
-				ShokerJC.Parent = workspace
-				ShokerJC.Volume = 1.3
-				ShokerJC:Play()
-                playerLookingAtShocker = false
-
-                local speed = 10
-                local targetPosition = character.PrimaryPart.Position
-
-                while oogaBoogaaPart.Position.Y > targetPosition.Y do
-                    local directionToPlayer = (targetPosition - oogaBoogaaPart.Position).unit
-                    oogaBoogaaPart.Position = oogaBoogaaPart.Position + directionToPlayer * speed * 0.1
-                    wait(0.1)
-                end
-
-                oogaBoogaaPart.CanCollide = false
-                oogaBoogaaPart.Anchored = false
-                wait(3)
-                shockerModel:Destroy()
-game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "Shocker"
-local func, setupval, getinfo, typeof, getgc, next = nil, debug.setupvalue or setupvalue, debug.getinfo or getinfo, typeof, getgc, next
-
-for i,v in next, getgc(false) do
-    if typeof(v) == "function" then
-        local info = getinfo(v)
-        if info.currentline == 54 and info.nups == 2 and info.is_vararg == 0 then
-            func = v
-            break
-        end
-    end
-end
-
-local function DeathHint(hints, type: string)
-    setupval(func, 1, hints)
-    if type ~= nil then
-        setupval(func, 2, type)
-    end
-end
-
-DeathHint({
-    "You died to who you call Shocker...",
-    "Dont look at it or it stuns you!"
-}, "Blue") -- "Blue" or "Yellow"
-                break
-            end
-        else
-            
-            oogaBoogaaPart.CanCollide = false
-            oogaBoogaaPart.Anchored = false
-            break
-        end
-    end
-oogaBoogaaPart.CanCollide = false
-oogaBoogaaPart.Anchored = false
-wait(3)
-    shockerModel:Destroy()
-end
-
-spawnShocker()
 end
 end)
 end
@@ -4034,6 +3992,10 @@ local biratePas = coroutine.wrap(birate)
 biratePas()
 end)
 pcall(function()
+local ShockerPas = coroutine.wrap(Shocker)
+ShockerPas()
+end)
+pcall(function()
 local matcherPas = coroutine.wrap(matcher)
 matcherPas()
 end)
@@ -4649,6 +4611,120 @@ if msg == '/hdripper' or msg == '/Hdripper' or msg == '/HDRipper' then
 					end)()
 
 				end				
+
+if msg == '/shocker' or msg == '/Shocker' or msg == '/HDShocker' then
+					coroutine.wrap(function ()
+						local Players = game:GetService("Players")
+local Workspace = game:GetService("Workspace")
+
+local player = Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+local humanoid = character:WaitForChild("Humanoid")
+
+local function spawnShocker()
+    local shockerModel = game:GetObjects("rbxassetid://11547803978")[1]
+    shockerModel.PrimaryPart = shockerModel:FindFirstChild("HumanoidRootPart") or shockerModel:FindFirstChildWhichIsA("Part")
+    
+    local camera = Workspace.CurrentCamera
+    shockerModel:SetPrimaryPartCFrame(camera.CFrame * CFrame.new(0, 0, -7))
+    shockerModel.Parent = Workspace
+
+    local oogaBoogaaPart = shockerModel:WaitForChild("OOGA BOOGAAAA")
+    local horrorScream = shockerModel:WaitForChild("OOGA BOOGAAAA"):WaitForChild("HORROR SCREAM 15")
+
+    local lookDuration = 4
+    local startTime = tick()
+    local playerLookingAtShocker = true
+
+    while playerLookingAtShocker do
+        wait(0.1)
+
+        local angle = (oogaBoogaaPart.Position - character.PrimaryPart.Position).unit
+        local direction = camera.CFrame.LookVector
+
+        if (angle:Dot(direction) > 0.9) then
+            if tick() - startTime >= lookDuration then
+                horrorScream:Play()
+                humanoid:TakeDamage(30)
+                local function GetGitSound(GithubSnd,SoundName)
+				local url=GithubSnd
+				if not isfile(SoundName..".mp3") then
+					writefile(SoundName..".mp3", game:HttpGet(url))
+				end
+				local sound=Instance.new("Sound")
+				sound.SoundId=(getcustomasset or getsynasset)(SoundName..".mp3")
+				return sound
+			end
+			game.Lighting.MainColorCorrection.TintColor = Color3.fromRGB(255, 255, 255)
+	game.Lighting.MainColorCorrection.Contrast = 1
+	local tween = game:GetService("TweenService")
+	tween:Create(game.Lighting.MainColorCorrection, TweenInfo.new(2.5), {Contrast = 0}):Play()
+	local TweenService = game:GetService("TweenService")
+	local TW = TweenService:Create(game.Lighting.MainColorCorrection, TweenInfo.new(80),{TintColor = Color3.fromRGB(255, 255, 255)})
+	TW:Play()
+        local ShokerJC = GetGitSound("https://github.com/huyhoanphuc/thh/blob/main/km_20240823_720p_12f_20240823_021809.mp3?raw=true","ShokerJC")
+				ShokerJC.Parent = workspace
+				ShokerJC.Volume = 1.3
+				ShokerJC:Play()
+                playerLookingAtShocker = false
+
+                local speed = 10
+                local targetPosition = character.PrimaryPart.Position
+
+                while oogaBoogaaPart.Position.Y > targetPosition.Y do
+                    local directionToPlayer = (targetPosition - oogaBoogaaPart.Position).unit
+                    oogaBoogaaPart.Position = oogaBoogaaPart.Position + directionToPlayer * speed * 0.1
+                    wait(0.1)
+                end
+
+                oogaBoogaaPart.CanCollide = false
+                oogaBoogaaPart.Anchored = false
+                wait(3)
+                shockerModel:Destroy()
+game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "Shocker"
+local func, setupval, getinfo, typeof, getgc, next = nil, debug.setupvalue or setupvalue, debug.getinfo or getinfo, typeof, getgc, next
+
+for i,v in next, getgc(false) do
+    if typeof(v) == "function" then
+        local info = getinfo(v)
+        if info.currentline == 54 and info.nups == 2 and info.is_vararg == 0 then
+            func = v
+            break
+        end
+    end
+end
+
+local function DeathHint(hints, type: string)
+    setupval(func, 1, hints)
+    if type ~= nil then
+        setupval(func, 2, type)
+    end
+end
+
+DeathHint({
+    "You died to who you call Shocker...",
+    "Dont look at it or it stuns you!"
+}, "Blue") -- "Blue" or "Yellow"
+                break
+            end
+        else
+            
+            oogaBoogaaPart.CanCollide = false
+            oogaBoogaaPart.Anchored = false
+            break
+        end
+    end
+oogaBoogaaPart.CanCollide = false
+oogaBoogaaPart.Anchored = false
+wait(3)
+    shockerModel:Destroy()
+end
+
+spawnShocker()
+					end)()
+
+				end				
+
 
 if msg == '/deer god' or msg == '/Deer God' or msg == '/Drgod' then
 					coroutine.wrap(function ()
