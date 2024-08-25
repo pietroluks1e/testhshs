@@ -330,7 +330,7 @@ end)()
 wait(2)
 require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Loading Done You oqen Door 1",true)
 game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Good LuckÄ‘Å¸â€˜Â!",true)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Good LuckĂ„â€˜Ă…Â¸Ă¢â‚¬ËœĂ‚Â!",true)
 
 -- current candle
 loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Functions.lua"))()
@@ -455,7 +455,7 @@ TW:Play()
     wait(0.6)
     roast:Destroy()
     
-local Spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/a120doors/main/jghgifgy"))()
+local Spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Entity%20Spawner/V1/Source.lua"))()
 
 ---====== Create entity ======---
 
@@ -497,6 +497,7 @@ entity.Debug.OnEntitySpawned = function()
 end
 
 entity.Debug.OnEntityDespawned = function()
+    workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value]:WaitForChild("Door").ClientOpen:FireServer()
 end
 
 entity.Debug.OnEntityStartMoving = function()
@@ -2773,7 +2774,7 @@ wait()
 game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
 end
 game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-local Spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/a120doors/main/jghgifgy"))()
+local Spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Entity%20Spawner/V1/Source.lua"))()
 
 ---====== Create entity ======---
 
@@ -2921,7 +2922,7 @@ game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
 wait()
 game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
 end
-local Spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/a120doors/main/jghgifgy"))()
+local Spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Entity%20Spawner/V1/Source.lua"))()
 
 ---====== Create entity ======---
 
@@ -3529,7 +3530,7 @@ game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
 wait()
 game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
 end
-local Spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/a120doors/main/jghgifgy"))()
+local Spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Entity%20Spawner/V1/Source.lua"))()
 
 ---====== Create entity ======---
 
@@ -4384,7 +4385,7 @@ local achievementGiver = loadstring(game:HttpGet("https://raw.githubusercontent.
  
 ---====== Display achievement ======---
 achievementGiver({
-    Title = "[Teast Are InsidÄ‚Â¦]",
+    Title = "[Teast Are InsidĂ„â€Ă‚Â¦]",
     Desc = "we will come back",
     Reason = "Encounter A-200",
     Image = "rbxassetid://537141778"
