@@ -1,7 +1,3 @@
-if (workspace.CurrentRooms:FindFirstChild("102")) then
-game.Players.LocalPlayer:Kick("Why What Do You Execute Extreme Mode Floor 1 in Door Floor2 :))))")
-end
-
 local shut = game.Players.LocalPlayer.PlayerGui.MainUI.MainFrame.IntroText
 local intro = shut:Clone()
 intro.Parent = game.Players.LocalPlayer.PlayerGui.MainUI
