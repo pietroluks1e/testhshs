@@ -1,3 +1,5 @@
+if game:GetService("ReplicatedStorage").GameData.Floor.Value == "Mines" then
+wait()
 local shut = game.Players.LocalPlayer.PlayerGui.MainUI.MainFrame.IntroText
 local intro = shut:Clone()
 intro.Parent = game.Players.LocalPlayer.PlayerGui.MainUI
@@ -5528,3 +5530,6 @@ Spawner.runEntity(entity)
 	end
 
 end)()
+else
+print("No work!")
+end
