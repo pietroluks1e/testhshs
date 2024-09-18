@@ -190,7 +190,7 @@ wait()
             end
 
             local a = game.Workspace.SeekMovingNewClone
-            a.SeekMusic.SoundId = ReplaceAudGit("https://github.com/huyhoanphuc/hgss/blob/main/km_20240918_360p_12f_20240918_195714.mp3?raw=true", "SeekMusickNewM")
+            a.SeekMusic.SoundId = ReplaceAudGit("https://github.com/huyhoanphuc/hgss/blob/main/km_20240919_720p_12f_20240919_022413.mp3?raw=true", "SeekMusickNewMm")
         end
     end)
 end)()
