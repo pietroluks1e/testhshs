@@ -173,32 +173,6 @@ game.Workspace.SeekMoving.Ambience.Volume = "0.7"
 end
 end)
 end)()
-
---Seekmusica
-coroutine.wrap(function()
-while true do
-wait()
-local roomValue = game.ReplicatedStorage.GameData.LatestRoom.Value
-if not ((roomValue >= 48 and roomValue <= 90)) then
-local a = game.Workspace.SeekMovingNewClone
-a.SeekMusic.SoundId = ReplaceAudGit("https://github.com/huyhoanphuc/hgss/blob/main/Here I Come (DOORS Remix).mp3?raw=true", "SeekMusickNew")
-end
-end
-end)()
---
-
---Seekmusicb
-coroutine.wrap(function()
-while true do
-wait()
-local roomValue = game.ReplicatedStorage.GameData.LatestRoom.Value
-if not ((roomValue >= 18 and roomValue <= 69)) then
-local b = game.Workspace.SeekMovingNewClone
-b.SeekMusic.SoundId = ReplaceAudGit("https://github.com/huyhoanphuc/hgss/blob/main/km_20240918_360p_12f_20240918_195714.mp3?raw=true", "SeekMusickNewa")
-end
-end
-end)()
---
  
 -- New Seek music and animation loader
 coroutine.wrap(function()
@@ -214,6 +188,9 @@ wait()
                 end
                 return (getcustomasset or getsynasset)(SoundName .. ".mp3")
             end
+
+            local a = game.Workspace.SeekMovingNewClone
+            a.SeekMusic.SoundId = ReplaceAudGit("https://github.com/huyhoanphuc/hgss/blob/main/km_20240918_360p_12f_20240918_195714.mp3?raw=true", "SeekMusickNewM")
         end
     end)
 end)()
