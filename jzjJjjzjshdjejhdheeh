@@ -176,7 +176,6 @@ end)()
 
 -- New Seek music and animation loader
 coroutine.wrap(function()
-local SeekMovingNewClone = game:GetObjects("rbxassetid://16893141009")[1]  
 wait()
     game.ReplicatedStorage.GameData.LatestRoom.Changed:Connect(function()
         wait(0.0005)
@@ -204,10 +203,10 @@ game.ReplicatedStorage.GameData.LatestRoom.Changed:Connect(function()
     end 
     local RealSeek = workspace:FindFirstChild("SeekMovingNewClone") 
     local RealSeekRig = RealSeek:FindFirstChild("SeekRig") 
-    local seekNew = game:GetObjects("rbxassetid://16893141009")[1]  
-    seekNew.Name = "seek2" 
+    local SeekNew = game:GetObjects("rbxassetid://16893141009")[1]  
+    SeekNew.Name = "seek2" 
 
-    for _, v in pairs(seekNew.Figure:GetChildren()) do 
+    for _, v in pairs(SeekNew.Figure:GetChildren()) do 
         if v:IsA("Sound") then 
             v:Stop() 
         end 
@@ -215,8 +214,8 @@ game.ReplicatedStorage.GameData.LatestRoom.Changed:Connect(function()
 
     RealSeekRig.Head.Eye:Destroy() 
     RealSeekRig.Head.Black:Destroy() 
-    seekNew.Parent = workspace 
-    local SeekRig = seekNew:FindFirstChild("SeekRig") 
+    SeekNew.Parent = workspace 
+    local SeekRig = SeekNew:FindFirstChild("SeekRig") 
     SeekRig:FindFirstChild("Root").Anchored = true 
 
     spawn(function() 
