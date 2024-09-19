@@ -903,34 +903,6 @@ for i,v in next, getgc(false) do
         end
     end
 end
- 
-local function DeathHint(hints, type: string)
-    setupval(func, 1, hints)
-    if type ~= nil then
-        setupval(func, 2, type)
-    end
-end
- 
-DeathHint({
-    "You died to A-200",
-    "A-200 will appear with an explosion effect",
-    "You can get close to it, but you can go into the room to check it out",
-    "The best thing is not to hide in the room, hide in the closet to safely get through it A-200",
-}, "Yellow") -- "Blue" or "Yellow"    
-end
-
---[[
-    NOTE: By overwriting 'OnUseCrucifix', the default crucifixion will be ignored and this function will be called instead
-
-    entity.Debug.OnUseCrucifix = function()
-        print("Custom crucifixion script here")
-    end
-]]--
-
----====== Run entity ======---
-
-Spawner.runEntity(entity)
-end
 
 function Nope()
 pcall(function()
