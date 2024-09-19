@@ -285,8 +285,8 @@ end)
 coroutine.wrap(function()
 game.ReplicatedStorage.GameData.LatestRoom.Changed:Connect(function()
 wait(0.0005)
-game.Workspace.CurrentRooms["50"].FigureSetup.Ambience.SoundId = "rbxassetid://1837828275"
-game.Workspace.CurrentRooms["50"].FigureSetup.Ambience.Volume = "0.7"
+game.Workspace.CurrentRooms["50"].FigureSetup.Ambience.SoundId = "rbxassetid://1837892736"
+game.Workspace.CurrentRooms["50"].FigureSetup.Ambience.Volume = "0.3"
 game.Workspace.CurrentRooms["50"].FigureSetup.AmbienceEnd.SoundId = "rbxassetid://4890185640"
 game.Workspace.CurrentRooms["50"].FigureSetup.AmbienceEnd.Volume = "0.5"
 end)
