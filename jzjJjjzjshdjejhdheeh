@@ -285,7 +285,7 @@ end)
 coroutine.wrap(function()
 game.ReplicatedStorage.GameData.LatestRoom.Changed:Connect(function()
 wait(0.0005)
-game.Workspace.CurrentRooms["50"].FigureSetup.Ambience.SoundId = "rbxassetid://1837892736"
+game.Workspace.CurrentRooms["50"].FigureSetup.Ambience.SoundId = "rbxassetid://0"
 game.Workspace.CurrentRooms["50"].FigureSetup.Ambience.Volume = "0.3"
 game.Workspace.CurrentRooms["50"].FigureSetup.AmbienceEnd.SoundId = "rbxassetid://4890185640"
 game.Workspace.CurrentRooms["50"].FigureSetup.AmbienceEnd.Volume = "0.5"
@@ -379,7 +379,7 @@ game.ReplicatedStorage.Sounds.BulbBreak.SoundId = "rbxassetid://260496290"
 --Set up horror sound
 local horrorSound = Instance.new("Sound", Workspace)
 horrorSound.SoundId = "rbxassetid://1846999385" -- replace with your own sound id
-horrorSound.Volume = 0.5
+horrorSound.Volume = 0
 horrorSound.Looped = true
 
 --Play the sound
