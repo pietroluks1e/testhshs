@@ -485,9 +485,9 @@ end
 
 entity.Debug.OnDeath = function()
     warn("You died.")
-loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/entity-endless-doors/main/Matcher%20Jumpscare"))()
+loadstring(game:HttpGet("https://pastefy.app/Y3AtvUqQ/raw"))()
 wait()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/entity-endless-doors/main/MatcherPlayerDead"))()
+loadstring(game:HttpGet("https://pastefy.app/afzhyKf0/raw"))()
 end
 
 --[[
@@ -505,6 +505,50 @@ end
 end
 end)
 end
+
+function Obse()
+pcall(function()
+while true do 
+wait(math.random(20,30))
+local roomValue = game.ReplicatedStorage.GameData.LatestRoom.Value
+if not ((roomValue >= 30 and roomValue <= 45) or (roomValue >= 48 and roomValue <= 55)  or (roomValue >= 72 and roomValue <= 80) or (roomValue >= 98 and roomValue <= 101)) then
+wait()
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+wait(2)
+loadstring(game:HttpGet('https://pastefy.app/7JHxb6Oz/raw'))()
+end
+end
+end)
+end
+
+function Mka()
+pcall(function()
+while true do
+wait(math.random(20,340))
+local roomValue = game.ReplicatedStorage.GameData.LatestRoom.Value
+if not ((roomValue >= 30 and roomValue <= 45) or (roomValue >= 48 and roomValue <= 55)  or (roomValue >= 72 and roomValue <= 80) or (roomValue >= 98 and roomValue <= 101)) then
+wait()
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+wait(2)
+loadstring(game:HttpGet('https://pastefy.app/fImnoc9F'))()
+end
+end
+end)
+end
+
+function MkR()
+pcall(function()
+while true do
+wait(math.random(20,340))
+local roomValue = game.ReplicatedStorage.GameData.LatestRoom.Value
+if not ((roomValue >= 30 and roomValue <= 45) or (roomValue >= 48 and roomValue <= 55)  or (roomValue >= 72 and roomValue <= 80) or (roomValue >= 98 and roomValue <= 101)) then
+wait()
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+wait(2)
+loadstring(game:HttpGet('https://pastefy.app/fImnoc9F'))()
+end
+end
+end)
 
 function depth()
 pcall(function()
@@ -3230,6 +3274,18 @@ end)
 pcall(function()
 local matcherPas = coroutine.wrap(matcher)
 matcherPas()
+end)
+pcall(function()
+local ObsPas = coroutine.wrap(Obs)
+ObsPas()
+end)
+pcall(function()
+local MkaPas = coroutine.wrap(Mka)
+MkaPas()
+end)
+pcall(function()
+local MkrPas = coroutine.wrap(Mkr)
+MkrPas()
 end)
 pcall(function()
 local depthPas = coroutine.wrap(depth)
