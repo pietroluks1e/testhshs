@@ -1,3 +1,5 @@
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Wait font Loading Done",true)
+wait()
 local shut = game.Players.LocalPlayer.PlayerGui.MainUI.MainFrame.IntroText
 local intro = shut:Clone()
 intro.Parent = game.Players.LocalPlayer.PlayerGui.MainUI
@@ -17,6 +19,8 @@ wait(2.3)
 intro.Visible = false
 wait(9)
 intro:Destroy()
+
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Loading Done",true)
 
 --Print
 coroutine.wrap(function()
@@ -428,116 +432,6 @@ entity.Debug.OnEntitySpawned = function()
 wait()
 if game.Workspace:FindFirstChild("Matchers") then
 game.workspace.Matchers:Destroy()
-end
-
-    game.Lighting.MainColorCorrection.TintColor = Color3.fromRGB(212, 255, 0)
-game.Lighting.MainColorCorrection.Contrast = 0.3
-local tween = game:GetService("TweenService")
-tween:Create(game.Lighting.MainColorCorrection, TweenInfo.new(0.5), {Contrast = 0}):Play()
-local TweenService = game:GetService("TweenService")
-local TW = TweenService:Create(game.Lighting.MainColorCorrection, TweenInfo.new(0.5),{TintColor = Color3.fromRGB(255, 255, 255)})
-TW:Play()
-    local roast = Instance.new("Sound")
-    roast.Parent = workspace
-    roast.Name = "roast"
-    roast.SoundId = "rbxassetid://9125936117"
-    roast.Volume = 1.6
-    roast.Pitch = 3
-    roast:Play()
-    wait(0.6)
-    roast:Destroy()
-end
-
-entity.Debug.OnEntityDespawned = function()
-    workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value]:WaitForChild("Door").ClientOpen:FireServer()
-end
-
-entity.Debug.OnEntityStartMoving = function()
-    print("Entity started moving")
-end
-
-entity.Debug.OnEntityFinishedRebound = function()
-    print("Entity finished rebound")
-end
-
-entity.Debug.OnEntityEnteredRoom = function(room)
-end
-
-entity.Debug.OnLookAtEntity = function()
-end
-
-entity.Debug.OnDeath = function()
-    warn("You died.")
-loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/entity-endless-doors/main/Matcher%20Jumpscare"))()
-wait()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/entity-endless-doors/main/MatcherPlayerDead"))()
-end
-
---[[
-    NOTE: By overwriting 'OnUseCrucifix', the default crucifixion will be ignored and this function will be called instead
-
-    entity.Debug.OnUseCrucifix = function()
-        print("Custom crucifixion script here")
-    end
-]]--
-
----====== Run entity ======---
-
-Spawner.runEntity(entity)
-end
-end
-end)()
---
-
---Matchers
-coroutine.wrap(function()
-while true do wait(70)
-wait()
-local roomValue = game.ReplicatedStorage.GameData.LatestRoom.Value
-if not ((roomValue >= 30 and roomValue <= 45) or (roomValue >= 48 and roomValue <= 55)  or (roomValue >= 72 and roomValue <= 80) or (roomValue >= 98 and roomValue <= 101)) then
-wait()
-game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-    
-local Spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Entity%20Spawner/V1/Source.lua"))()
-
----====== Create entity ======---
-
-local entity = Spawner.createEntity({
-    CustomName = "Matchers",
-    Model = "rbxassetid://12459977063", -- Your entity's model url here ("rbxassetid://1234567890" or GitHub raw url)
-    Speed = 550,
-    MoveDelay = 1.3,
-    HeightOffset = 0,
-    CanKill = true,
-    KillRange = 40,
-    SpawnInFront = true,
-    ShatterLights = true,
-    FlickerLights = {
-        Enabled = false,
-        Duration = 8
-    },
-    Cycles = {
-        Min = 1.5,
-        Max = 1.5,
-        Delay = 0
-    },
-    CamShake = {
-        Enabled = true,
-        Values = {5.15, 20, 0.1, 1},
-        Range = 100
-    },
-    ResistCrucifix = false,
-    BreakCrucifix = false,
-    DeathMessage = {"you die to A-10", "yee."},
-    IsCuriousLight = true
-})
-
----====== Debug ======---
-
-entity.Debug.OnEntitySpawned = function()
-wait()
-if game.Workspace:FindFirstChild("Matcher") then
-game.workspace.Matcher:Destroy()
 end
 
     game.Lighting.MainColorCorrection.TintColor = Color3.fromRGB(212, 255, 0)
