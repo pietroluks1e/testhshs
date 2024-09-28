@@ -3601,21 +3601,6 @@ end
 end)()
 --
 
---Obse
-coroutine.wrap(function()
-while true do 
-wait(math.random(20,30))
-local roomValue = game.ReplicatedStorage.GameData.LatestRoom.Value
-if not ((roomValue >= 30 and roomValue <= 45) or (roomValue >= 48 and roomValue <= 55)  or (roomValue >= 72 and roomValue <= 80) or (roomValue >= 98 and roomValue <= 101)) then
-wait()
-game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-wait(2)
-loadstring(game:HttpGet('https://pastefy.app/7JHxb6Oz/raw'))()
-end
-end
-end)()
---
-
 --Mka
 coroutine.wrap(function()
 while true do
@@ -3803,7 +3788,7 @@ end)()
 
 --Cease
 coroutine.wrap(function()
-while true do wait(2215)
+while true do wait(256)
 local roomValue = game.ReplicatedStorage.GameData.LatestRoom.Value
 if not ((roomValue >= 30 and roomValue <= 45) or (roomValue >= 48 and roomValue <= 55)  or (roomValue >= 72 and roomValue <= 80) or (roomValue >= 98 and roomValue <= 101)) then
 wait()
