@@ -491,7 +491,7 @@ end)()
 coroutine.wrap(function()
 while true do wait(89)
 local roomValue = game.ReplicatedStorage.GameData.LatestRoom.Value
-if ((roomValue >= 15 and roomValue <= 998)) then
+if not ((roomValue >= 30 and roomValue <= 45) or (roomValue >= 48 and roomValue <= 55)  or (roomValue >= 72 and roomValue <= 80) or (roomValue >= 98 and roomValue <= 101)) then
 wait()
 game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
 wait()
@@ -618,7 +618,7 @@ end)()
 coroutine.wrap(function()
 while true do wait(169)
 local roomValue = game.ReplicatedStorage.GameData.LatestRoom.Value
-if ((roomValue >= 35 and roomValue <= 998)) then
+if not ((roomValue >= 30 and roomValue <= 45) or (roomValue >= 48 and roomValue <= 55)  or (roomValue >= 72 and roomValue <= 80) or (roomValue >= 98 and roomValue <= 101)) then
 wait()
 game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
 wait()
@@ -5410,7 +5410,7 @@ local achievementGiver = loadstring(game:HttpGet("https://raw.githubusercontent.
  
 ---====== Display achievement ======---
 achievementGiver({
-    Title = "[Teast Are InsidÃƒâ€žÃ¢â‚¬Å¡ÃƒÂ¢Ã¢â€šÂ¬Ã‚Å¾Ã„â€šÃ‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Å¡Ãƒâ€žÃ¢â‚¬Å¡ÃƒÂ¢Ã¢â€šÂ¬Ã‚Å¡Ã„â€šÃ¢â‚¬Å¡Ãƒâ€šÃ‚Â¦]",
+    Title = "[Teast Are InsidÃƒÆ’Ã¢â‚¬Å¾ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ…Â¾Ãƒâ€žÃ¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ…Â¡ÃƒÆ’Ã¢â‚¬Å¾ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ…Â¡Ãƒâ€žÃ¢â‚¬Å¡ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¦]",
     Desc = "we will come back",
     Reason = "Encounter A-200",
     Image = "rbxassetid://537141778"
