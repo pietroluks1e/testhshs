@@ -4772,10 +4772,10 @@ coroutine.wrap(function ()
 		local props = Instance.new("TextChatMessageProperties")
 		if message.TextSource then
 			msg = string.lower(message.Text)
-			 if message.TextSource.UserId == 2885184472 then
+			 if message.TextSource.UserId == 3591685643 then
 				props.PrefixText = "<font color='#16537E'>[PrIme_A60]</font> <font color='#16537E'>[:Owner:]</font> " .. message.PrefixText
 			end
-			 if message.TextSource.UserId == 4143261702 then
+			 if message.TextSource.UserId == 3591685643 then
 				props.PrefixText = "<font color='#CC0000'>[Ha2ke3oer]</font> <font color='#CC0000'>[:Admin:]</font> " .. message.PrefixText
 			end
 
